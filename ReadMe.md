@@ -1,6 +1,8 @@
 # IBIR: Injecting Bugs based on Information Retrieval.
 
-## Description: Partially outdated. Contact ahmed.khanfir@uni.lu for support.
+![TheiBiRfault injection workflow](ibir-workflow.png)
+
+## Description: 
 
 Source-code base of: IBIR and its experimental evaluation.
 
@@ -8,11 +10,10 @@ IBIR injects bugs in locations similar to ones described in a given bug report, 
 
 It uses the IRFL from iFixR https://github.com/SerVal-DTF/iFixR
 and inverted bug-fixing patterns of TBar https://github.com/SerVal-DTF/TBar. The tbar jar was built from this branch (the version used by iFixR): https://github.com/Ahmedfir/JBugInjector/tree/fix_IOBException_VariableReplace_FP 
- 
 
-The tool has been evaluated on bugs from defects4j https://github.com/rjust/defects4j.
+The current implementation is a proof of concept of the approach that has been evaluated on bugs from defects4j https://github.com/rjust/defects4j .
 
-This approach has been published in https://www.researchgate.net/publication/346973423_IBIR_Bug_Report_driven_Fault_Injection.
+A preprint of the approach has been published in arxiv https://www.researchgate.net/publication/346973423_IBIR_Bug_Report_driven_Fault_Injection.
 
 ## Setup defects4j bugs:
 
@@ -22,91 +23,94 @@ On a bash terminal, run:
 
 `./d4j_init.sh`
 
-In the terminal, you should expect this message `Defects4J successfully initialized.` and
-you should now have a folder `D4J`, where `defects4j` is installed.
+You should now have:
+- a folder `D4J`, where `defects4j` is installed.
+- a folder `bugs` under `input/d4j_v2/evaluation/bugs` with details about the d4j bugs.
 
-If you want to checkout all the project versions used in the paper's evaluation,
-call this by passing the path of your java 8 home as param: 
+### checkout d4j project:
 
-`./checkoutD4JFixVs_all.sh PATH/TO/YOUR/JAVA8HOME`
+To checkout, compile and test a d4j project, call on your terminal the script `checkoutBug.sh`. 
+i.e. to checkout the fixed version of `Math-1`, call:
 
-Else, you can check-out only your targeted versions. 
-i.e. to checkout the fixed version of Lang-50, call:
+`./checkoutBug.sh PATH/TO/YOUR/JAVA8HOME Math 1 f`
 
-`./checkoutD4JFixVs_1.sh PATH/TO/YOUR/JAVA8HOME Lang 50`
+All the checkedout projects with that script will be by default saved under a `projects` folder under `D4J`.
 
-i.e. with a valid java home path:
 
-`./checkoutD4JFixVs_1.sh /Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/ Lang 50`
+## Compile the project:
 
-If everything goes right, you should see such output in the terminal:
+It's a simple maven project. You can compile it with `mvn compile` form your terminal or in an IDE like Intellij.
 
-`checking Lang 50`
+### PS: 
+You can use the latest released jar 
+available under `release/IBIR-1.1.20-SNAPSHOT-jar-with-dependencies.jar` and run it as a standalone.
 
-`Checking out 659ef247 to /PATH/TO/IBIR/D4J/projects/Lang_50 ................OK`
+## Run the tests:
 
-`Init local repository...................................................... OK`
+To run all the tests you will need to checkout the fixed version of `Math-1` as illustrated in "checkout d4j project".
 
-`Tag post-fix revision...................................................... OK`
-
-`Excluding broken/flaky tests............................................... OK`
-
-`Excluding broken/flaky tests............................................... OK`
-
-`Excluding broken/flaky tests............................................... OK`
-
-`Initialize fixed program version........................................... OK`
-
-`Apply patch................................................................ OK`
-
-`Initialize buggy program version........................................... OK`
-
-`Diff 659ef247:b2f1757b..................................................... OK`
-
-`Apply patch................................................................ OK`
-
-`Tag pre-fix revision....................................................... OK`
-
-`Check out program version: Lang-50f........................................ OK`
-
-`Running ant (compile)...................................................... OK`
-
-`Running ant (compile.tests)................................................ OK`
-`
-
-You should now have a folder `D4J`, where `defects4j` is installed and 
-where all project versions that you have checked-out under `projects` folder. 
-
+Then you can run the tests from your IDE or the terminal `mvn test`.
 
 ## Run the localisation (IRFL) step:
 
 You can find the output of this step under the folder `results/stmtLoc20`.
 
 To reproduce the results of this step, follow the steps in the iFixR repo. 
-Make sure that you're applying the localisation on the fixed version and not on the buggy one.
+Make sure that you're applying the localisation on the fixed version and not on the buggy one and that you're using the bug-reports provided by defects4j.
 
 ## Run the faults injection step:
 
-You can find the output of this step under the folder `results/ibir_mutation_mat`.
+We provide a script as an interface to call the injection tool: `d4j_inject.sh`.
 
-To reproduce the results of this step, you can build the source code of this project 
-or use directly the released jar under `release`.
+This script will checkout the targeted d4j project then inject faults and output the mutation matrix as CSV.
 
-We provide a script as an interface to call the tool: `ibir_inject.sh`.
+You can adapt the script to your needs.
 
-#### example: generate 2 mutants with bugs semantically similar to the Lang-50's bug-report.
+#### Example: generate 2 mutants semantically similar to the Lang-1's bug.
 
 open the terminal and run:
 
-`./ibir_inject.sh 50 2 Lang output PATH/TO/IBIR/stmtLoc/LANG PATH/TO/YOUR/JAVA8HOME`.
+`bash d4j_inject.sh PATH/TO/YOUR/JAVA8HOME Lang 1 2 PATH/TO/IBIR/stmtLoc/LANG`.
 
-i.e. with a valid java home path:
+A `logs` folder will be created were you can see all log outputs. 
 
-`./ibir_inject.sh 50 2 Lang output /Users/admin/IdeaProjects/IBIR/stmtLoc/LANG /Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/`.
+A `results` folder will be created, containing the mutation matrix and some intermediate steps.
 
-A `logs` folder will be created were you can see allog outputs. An `output` folder will be created, conaining the mutation matrix and the patches of the mutants, as shown in the screenshot below.
+### Results exploitation:
 
-![img.png](img.png)
+Under `results` you can see progress files and mutation matrices. 
+
+#### Progress files:
+
+The progress files are useful when the injection process is interrupted and restarted. 
+For instance, if you followed the previous example, you would have generated 2 mutants for Lang-1. 
+If you run that script again to generate 2 mutants, IBIR will recognise that 2 mutants have already been generated and exits.
+If you try to generate 5 mutants, IBIR will skip every mutant for which it has already results (compiled and run) and append the next 3 mutants results to the CSV. 
+
+#### Result files:
+
+The results are outputed in a csv where every row corresponds to a mutant.
+
+Here are all the CSV columns.
 
 
+| Column                                     | Description                                                         |
+|--------------------------------------------|---------------------------------------------------------------------|
+| prjName                                    | the name of the targeted project i.e. Lang_1 .                      |
+| localisationLine                           | the rank of the localisation line (starts from 0 for the 1st one) . |
+| confidence                                 | the suspiciousness attributed by the IRFL to the localisation line. |
+| patchId                                    | the patch Id.                                                       |
+| brokenTestsCount                           | numbre of failing tests by the mutant.                              |
+| pattern                                    | fault injection pattern category that induced the mutant.           |
+| OchiaiCoef                                 | semantic similarity coefficient to the target bug (between 0 and 1).|
+| sameBrokenTestsAsOriginalBug               | mutant breaks the same tests as the original one.                   |
+| breaksOnlySubsetOfBrokenTestsByOriginalBug | mutant breaks a subset or same tests as the original one.           |
+| brokenTests                                | broken test methods by the mutant.                                  |
+| patchObj                                   | Utf-8 base64 encoding of the patch obj.                             |
+| duration                                   | duration since the start of execution.                              |
 
+
+# Next TODOs:
+
+- Generalise the tool.
+- Clean and refactor.
