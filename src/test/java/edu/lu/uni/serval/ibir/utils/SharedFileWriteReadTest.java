@@ -7,59 +7,66 @@ import org.junit.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.concurrent.TimeoutException;
 
 import static org.junit.Assert.assertTrue;
 
 public class SharedFileWriteReadTest {
 
-    private static final String SHARED_FILE = "/Users/ahmed.khanfir/anil-tbar/src/test/resources/INPUT/SharedFileWriteReadTest/existingFile/sharedFile1.txt";
+    private static final Path SHARED_DIR = Paths.get("src/test/resources/INPUT/SharedFileWriteReadTest/existingFile");
+    private static final Path SHARED_FILE = Paths.get("src/test/resources/INPUT/SharedFileWriteReadTest/existingFile/sharedFile1.txt");
 
-    private static final String NOT_EXISTING_SHARED_FILE = "/Users/ahmed.khanfir/anil-tbar/src/test/resources/INPUT/SharedFileWriteReadTest/existingFile/sharedFile2.txt";
+    private static final Path NOT_EXISTING_SHARED_FILE = Paths.get("src/test/resources/INPUT/SharedFileWriteReadTest/existingFile/sharedFile2.txt");
 
     @Before
     public void setUp() throws Exception {
-        FileUtils.createFile(new File(SHARED_FILE), "someLine1\n" +
+        FileUtils.createFile(SHARED_FILE.toFile(), "someLine1\n" +
                 "someLine2\n");
     }
 
 
     @Test
     public void tryWriteNewLine() throws IOException, TimeoutException {
+        String sharedFilePath = SHARED_FILE.toAbsolutePath().toString();
         long now = System.currentTimeMillis();
         String lineNames = "dummyLine_" + now + "_";
         for (int i = 0; i < 200; i++) {
-            SharedFileWriteRead.writeNewLine(SHARED_FILE, lineNames + i);
-            assertTrue(SharedFileWriteRead.containsLine(SHARED_FILE, lineNames + i));
+            SharedFileWriteRead.writeNewLine(sharedFilePath, lineNames + i);
+            assertTrue(SharedFileWriteRead.containsLine(sharedFilePath, lineNames + i));
         }
         for (int i = 0; i < 200; i++) {
-            assertTrue(SharedFileWriteRead.containsLine(SHARED_FILE, lineNames + i));
+            assertTrue(SharedFileWriteRead.containsLine(sharedFilePath, lineNames + i));
         }
     }
 
     @Test
     public void tryWriteNewLineNotExistingFile() throws IOException, TimeoutException {
+        String notExistingSharedFilePath = NOT_EXISTING_SHARED_FILE.toAbsolutePath().toString();
         long now = System.currentTimeMillis();
         String lineNames = "dummyLine_" + now + "_";
         for (int i = 0; i < 200; i++) {
-            SharedFileWriteRead.writeNewLine(NOT_EXISTING_SHARED_FILE, lineNames + i);
-            assertTrue(SharedFileWriteRead.containsLine(NOT_EXISTING_SHARED_FILE, lineNames + i));
+            SharedFileWriteRead.writeNewLine(notExistingSharedFilePath, lineNames + i);
+            assertTrue(SharedFileWriteRead.containsLine(notExistingSharedFilePath, lineNames + i));
         }
         for (int i = 0; i < 200; i++) {
-            assertTrue(SharedFileWriteRead.containsLine(NOT_EXISTING_SHARED_FILE, lineNames + i));
+            assertTrue(SharedFileWriteRead.containsLine(notExistingSharedFilePath, lineNames + i));
         }
     }
 
     @Test
     public void tryFindLine() {
-        Assert.assertTrue(SharedFileWriteRead.tryFindLine(SHARED_FILE, "someLine1"));
-        Assert.assertTrue(SharedFileWriteRead.tryFindLine(SHARED_FILE, "someLine2"));
-        Assert.assertFalse(SharedFileWriteRead.tryFindLine(SHARED_FILE, "someLine3"));
-        Assert.assertFalse(SharedFileWriteRead.tryFindLine(NOT_EXISTING_SHARED_FILE, "someLine1"));
+        String sharedFilePath = SHARED_FILE.toAbsolutePath().toString();
+        String notExistingSharedFilePath = NOT_EXISTING_SHARED_FILE.toAbsolutePath().toString();
+        Assert.assertTrue(SharedFileWriteRead.tryFindLine(sharedFilePath, "someLine1"));
+        Assert.assertTrue(SharedFileWriteRead.tryFindLine(sharedFilePath, "someLine2"));
+        Assert.assertFalse(SharedFileWriteRead.tryFindLine(sharedFilePath, "someLine3"));
+        Assert.assertFalse(SharedFileWriteRead.tryFindLine(notExistingSharedFilePath, "someLine1"));
     }
 
     @After
     public void tearDown() throws Exception {
-        FileUtils.deleteDirectory(new File("/Users/ahmed.khanfir/anil-tbar/src/test/resources/INPUT/SharedFileWriteReadTest/existingFile"));
+        FileUtils.deleteDirectory(SHARED_DIR.toFile());
     }
 }

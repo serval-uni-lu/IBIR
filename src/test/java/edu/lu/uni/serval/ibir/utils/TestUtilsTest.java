@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -28,7 +29,7 @@ public class TestUtilsTest {
         Set<String> expectedRes = new HashSet<String>() {{
             addAll(Arrays.asList("org.apache.commons.cli.OptionsTest::testMissingOptionsException;org.apache.commons.cli.OptionsTest::testMissingOptionException".split(";")));
         }};
-        Set<String> res = TestUtils.loadTestsBrokenByOriginalBug("/Users/ahmed.khanfir/PycharmProjects/iFixR/input/d4j_v2/evaluation/bugs/Cli_bugs.csv", 4);
+        Set<String> res = TestUtils.loadTestsBrokenByOriginalBug(Paths.get("input/d4j_v2/evaluation/bugs/Cli_bugs.csv").toAbsolutePath().toString(), 4);
         assertNotNull(res);
         assertTrue(res.size() > 0);
         assertEquals(expectedRes,res);

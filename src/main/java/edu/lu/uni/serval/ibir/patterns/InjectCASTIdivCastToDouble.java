@@ -16,7 +16,6 @@ import java.util.List;
  * <p>
  * Context: InfixExpression and the operator is "/".
  *
- * @author ahmed.khanfir
  * @see ICASTIdivCastToDouble
  */
 public class InjectCASTIdivCastToDouble extends FixTemplate implements NamedPatterns {

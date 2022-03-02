@@ -25,7 +25,6 @@ import static edu.lu.uni.serval.ibir.utils.TestUtils.loadTestsBrokenByOriginalBu
 /**
  * inject bugs with fix Localization results.
  *
- * @author ahmed
  */
 public class Main {
     public static final String D4J_INFOS_DIR = System.getProperty("D4J_INFOS_DIR", "input/d4j_v2/evaluation/bugs");
@@ -85,7 +84,7 @@ public class Main {
         try {
             bugId = Integer.valueOf(elements[1]);
         } catch (NumberFormatException e) {
-            throw new InjectionAbortingException("Please input correct buggy project ID, such as \"Chart_1\". in project:" + projectName_BugId);
+            throw new InjectionAbortingException("Please input correct buggy project ID, such as \"Math_1\". in project:" + projectName_BugId);
         }
 
         IbirInjector ibirInjector;

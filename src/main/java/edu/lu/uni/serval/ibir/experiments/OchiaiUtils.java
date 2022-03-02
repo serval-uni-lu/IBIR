@@ -15,11 +15,6 @@ public final class OchiaiUtils {
 
     private static Logger log = LoggerFactory.getLogger(OchiaiUtils.class);
 
-    public static final String OCHIAI_COLUMN_NAME = "OchiaiCoef";
-
-    private static final String FAILED_TESTS_FILE_END = ".txt";
-    private static final String FAILED_TESTS_BY_BUG_DIR = "/Users/ahmed.khanfir/anil-tbar/FailedTestCases/";
-
     private OchiaiUtils() {
         throw new IllegalAccessError("Utility class: No instance allowed, static access only.");
     }

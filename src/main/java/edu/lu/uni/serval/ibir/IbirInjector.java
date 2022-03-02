@@ -35,7 +35,6 @@ import static edu.lu.uni.serval.ibir.utils.PerfectClassLocalisationUtils.loadPer
 
 
 /**
- * @author ahmed.khanfir
  * @see edu.lu.uni.serval.tbar.AbstractFixer
  * @see edu.lu.uni.serval.tbar.TBarFixer
  */
