@@ -1,0 +1,6 @@
+# Project exclude paths
+/target/
+/.idea/
+/D4J/
+/input/d4j_v2/evaluation/bugs/
+/logs/

@@ -1,0 +1,850 @@
+,bugReport,filename,prob,locations
+0,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.4099824239472479,['536-536']
+1,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.3838714414160478,['550-550']
+2,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.3164620585473326,['313-313']
+3,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.30447589422120525,['764-764']
+4,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.276935604590451,['509-567']
+5,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.2726978349604133,['77-77']
+6,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.2440706593104403,"['454-456', '754-756']"
+7,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.23242382721490334,['575-588']
+8,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.22097555715561099,['226-226']
+9,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.2202482000972184,['613-613']
+10,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.2167804177644347,['593-598']
+11,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.20797148428806084,['500-502']
+12,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.20695516693504562,['594-594']
+13,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.20644001450855246,['603-608']
+14,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.20459569535878092,['486-508']
+15,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.20177001255700025,['558-558']
+16,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.19344578352039554,['757-763']
+17,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.18344871498592843,['241-241']
+18,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.17944055020416597,['221-221']
+19,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.17726557661688172,['489-491']
+20,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.1743303543701509,['537-541']
+21,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.16880632370237333,['521-531']
+22,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.16125245891994555,['604-604']
+23,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.16091119062962436,['278-278']
+24,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.1604700777119988,['88-88']
+25,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.15947724854443293,"['469-469', '587-587']"
+26,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.1589964228694775,"['1301-1303', '1326-1328']"
+27,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.15768466709736245,['479-479']
+28,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.15654156467137612,['289-289']
+29,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.15552165266900383,['499-506']
+30,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.15281782597489996,['478-478']
+31,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.1452961174289333,['529-529']
+32,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.14116197329301963,['902-902']
+33,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.14116197329301963,['1050-1050']
+34,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.13530729731454053,['1400-1403']
+35,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.13530729731454053,['1363-1366']
+36,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.13494023380887574,['477-477']
+37,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.13110770419831047,['71-71']
+38,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.13110770419831047,['189-189']
+39,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.12855649154627813,['650-650']
+40,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.1266270683556809,['488-495']
+41,LANG-693,src/main/java/org/apache/commons/lang3/exception/CloneFailedException.java,0.12650454134691083,['49-49']
+42,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.12269507396105023,['1399-1406']
+43,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.1215854283186859,"['65-65', '108-108']"
+44,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.11677347952632773,['127-127']
+45,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.11565116225344693,"['905-905', '1053-1053']"
+46,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.11127319151084837,['904-906']
+47,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.11127319151084837,['1052-1054']
+48,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.11081916127214898,['199-199']
+49,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.110367954790423,['137-144']
+50,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.110367954790423,['255-262']
+51,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.10694222691994028,['466-475']
+52,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.10485588820453831,['189-189']
+53,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.10485588820453831,['168-168']
+54,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.10053377653204762,['140-144']
+55,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.10053377653204762,['258-262']
+56,LANG-693,src/main/java/org/apache/commons/lang3/exception/CloneFailedException.java,0.09927514235212943,['60-60']
+57,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.09887517091028968,['278-279']
+58,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.0988599374828173,['118-118']
+59,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.09884208919633349,['468-470']
+60,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.09735172237363315,"['221-221', '231-231']"
+61,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.09655571555861912,['1414-1418']
+62,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.09517640351584862,['312-312']
+63,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.09447989719645254,['302-302']
+64,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.08909118474915294,"['472-472', '583-583']"
+65,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.08739315983067315,['1367-1367']
+66,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.08650397339295897,['875-875']
+67,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.08650397339295897,['1023-1023']
+68,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.0850699066857613,['164-164']
+69,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.0850699066857613,['46-46']
+70,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.08336286599907261,['666-666']
+71,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.0825370589454983,"['474-474', '578-578']"
+72,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.08176317151360771,['551-553']
+73,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.08155223725731828,['1362-1387']
+74,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.08051120167834198,['1390-1421']
+75,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.07995714056540545,['516-516']
+76,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.07912393165477175,['525-525']
+77,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.07753536153434952,['221-228']
+78,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.07753536153434952,['103-110']
+79,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.07738338493395255,['1332-1332']
+80,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.07731679504127296,['443-443']
+81,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.07726248139181255,['143-143']
+82,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.07599655518950993,['193-193']
+83,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.07517148375749902,['1358-1387']
+84,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.07489876860082581,"['878-878', '1026-1026']"
+85,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.0728822163509241,['1417-1417']
+86,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.07221092662739072,['224-228']
+87,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.07221092662739072,['106-110']
+88,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.07185575871189817,['187-187']
+89,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.07173771183446824,['251-251']
+90,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.07138327002688728,['736-736']
+91,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.0704537532533362,['1025-1027']
+92,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.0704537532533362,['877-879']
+93,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.0696126547154651,['77-77']
+94,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.06928193606708329,['91-91']
+95,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.06923213675760476,['292-292']
+96,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.06864261364792001,['163-163']
+97,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.06844881411837168,['301-301']
+98,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.06808351950552531,['595-597']
+99,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.06686799063490119,['125-125']
+100,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.06435971062509196,['485-485']
+101,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.06430107835052627,['497-497']
+102,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.0636701824195993,['284-284']
+103,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.06321090870854917,['174-174']
+104,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentException.java,0.058241090646246454,['56-56']
+105,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.05763453338194891,['147-147']
+106,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.057157537991936506,['328-328']
+107,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.05638499459316508,['201-201']
+108,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.05532085122410972,['378-378']
+109,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.0550627038564375,['151-156']
+110,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.05499404475940176,['377-377']
+111,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.05450295045214889,['124-124']
+112,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.05326535097947206,"['107-107', '141-141', '225-225', '259-259']"
+113,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.05302082039683451,['146-148']
+114,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentException.java,0.05256990936071912,['68-68']
+115,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.05203058080257028,['202-212']
+116,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.05189790805967446,['154-154']
+117,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.05166311483372915,"['1094-1094', '1112-1112', '1130-1130', '1148-1148', '1200-1200', '1218-1218', '1236-1236', '1254-1254']"
+118,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.05166311483372915,"['552-552', '606-606']"
+119,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.05158431703028543,['605-607']
+120,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.05115185388276304,['152-152']
+121,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentRuntimeException.java,0.05105064518868722,['58-58']
+122,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.050958609447397545,['471-473']
+123,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.05088978311244423,['458-458']
+124,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.05047935520035196,['692-692']
+125,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.049679173927370306,"['518-518', '604-604']"
+126,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.048578884355010704,['393-393']
+127,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.04836992169099356,['225-229']
+128,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.04820926661713168,['204-204']
+129,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,0.04804440942806054,['211-211']
+130,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.047745011773170025,['195-195']
+131,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.047500826982418094,['677-677']
+132,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.047133630088401164,"['517-519', '603-605']"
+133,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentRuntimeException.java,0.04607962798424141,['70-70']
+134,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.04579979953779482,['227-229']
+135,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.045386617877054065,['121-121']
+136,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.04522186376270895,['121-121']
+137,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.04429037291355843,['153-155']
+138,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.04424091222090046,['1379-1387']
+139,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.04346511418628406,['205-205']
+140,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.043307335159609966,['205-205']
+141,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.040843884095365865,['301-301']
+142,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.04066410958442311,['241-241']
+143,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.03953660211872609,['238-243']
+144,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.03859087988930934,"['134-134', '146-146']"
+145,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.038450794407390756,"['134-134', '146-146']"
+146,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.03700097779332098,['88-88']
+147,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.03594678273785589,"['619-619', '642-642']"
+148,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.0356552051838828,['226-226']
+149,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.03524912798880554,"['376-376', '390-390', '469-469', '497-497']"
+150,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.03519036783500899,"['104-104', '138-138', '222-222', '256-256']"
+151,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.03405033627467267,"['170-170', '189-189']"
+152,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.03395980010527587,['559-559']
+153,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.03392673303524902,"['170-170', '189-189']"
+154,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.03322623492507269,['235-244']
+155,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.03314896394015756,['454-454']
+156,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.032859934111436374,['257-257']
+157,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.03239011859875521,"['51-51', '76-76']"
+158,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.03239011859875521,"['169-169', '194-194']"
+159,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.032134804102659266,['157-161']
+160,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.032134804102659266,"['39-43', '64-68', '182-186']"
+161,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.03161229876595186,['234-249']
+162,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.031074766058300608,"['457-457', '490-490']"
+163,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.031074766058300608,['673-673']
+164,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.031074766058300608,"['400-400', '406-406']"
+165,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.030905950277940724,['304-304']
+166,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.03035866283885698,['407-413']
+167,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.030104111156851736,['522-522']
+168,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.030004505768500566,['1368-1387']
+169,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.029928549027223635,"['41-43', '66-68', '159-161', '184-186']"
+170,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.029849269943943234,['675-675']
+171,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.029285720991228215,"['621-621', '644-644']"
+172,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.02912023739594597,['272-272']
+173,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.02886629797922052,['77-77']
+174,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.028862165470153706,['326-326']
+175,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.02853175028790221,['231-231']
+176,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.028527895572164206,['661-663']
+177,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.027645672887074813,"['462-462', '495-495']"
+178,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.027601229841275898,['370-372']
+179,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.027279634531394523,['256-256']
+180,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.027094989296554878,['325-327']
+181,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.02706661152404577,['127-127']
+182,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.026788023000284378,"['630-630', '1302-1302', '1306-1306', '1327-1327', '1340-1340', '1347-1347', '1365-1365', '1372-1372', '1375-1375', '1381-1381', '1386-1386', '1397-1397', '1402-1402', '1420-1420']"
+183,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.026627844850904456,['122-122']
+184,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.026562340013369417,['652-653']
+185,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.026451328791831243,['928-928']
+186,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.026289900717554316,['271-271']
+187,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.02568824068753586,"['169-169', '188-188', '229-229', '274-274', '290-290', '304-304', '1020-1020', '1064-1064']"
+188,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.02550572105777966,['1070-1074']
+189,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.025123794511848038,['261-290']
+190,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.025014390702871137,['90-90']
+191,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.02490019382322381,"['65-65', '108-108']"
+192,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.02398174871545284,['918-918']
+193,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.023652845272761774,['303-305']
+194,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.02362049121948025,"['452-452', '648-648', '664-664', '681-681', '699-699', '716-716', '751-751']"
+195,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.023274135045171895,"['626-626', '1309-1309', '1350-1350', '1393-1393']"
+196,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.02326494461542447,['531-531']
+197,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.023219744994346682,['282-282']
+198,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.023140335782069706,['586-586']
+199,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.023073797542266326,"['168-170', '228-230', '273-275', '1019-1021', '1063-1065']"
+200,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.02292011862101756,['118-118']
+201,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.02261647241710085,['642-685']
+202,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.022537045876076106,"['789-789', '812-812', '835-835', '858-858', '885-885', '912-912']"
+203,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.022537045876076106,"['937-937', '960-960', '983-983', '1006-1006', '1033-1033', '1060-1060']"
+204,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.02250023358690958,"['187-189', '289-291']"
+205,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.022310773960086874,"['109-109', '143-143']"
+206,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.022310773960086874,"['227-227', '261-261']"
+207,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.022240618958032126,['651-654']
+208,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.022174061636140194,['583-583']
+209,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.02214247779430714,"['540-540', '596-596']"
+210,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.021864128822526595,['301-301']
+211,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.021747756606686812,['276-277']
+212,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.021700174425344342,"['229-232', '304-307']"
+213,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.02157906609616983,['1072-1074']
+214,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.02150943114155444,['189-189']
+215,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.02150943114155444,['168-168']
+216,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.02149421953198182,['647-649']
+217,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.021258972913639988,['935-935']
+218,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.0208636608031322,['551-553']
+219,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.020820484070496706,['915-915']
+220,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.020727601309135556,['767-768']
+221,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.020727601309135556,['765-766']
+222,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.020498303644051537,['776-776']
+223,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.02019660921774488,['525-525']
+224,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.020140195554149865,['958-958']
+225,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.020052096975420056,['917-917']
+226,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.01977201866490569,['938-956']
+227,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.019760863475103595,['562-562']
+228,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.019679673716980907,['270-270']
+229,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.019679673716980907,['268-268']
+230,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.019665619184792434,"['620-620', '643-643']"
+231,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.01952935714924475,['936-956']
+232,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.01944588731516414,['267-267']
+233,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.019397176774772477,['934-956']
+234,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.019307051823763126,['633-633']
+235,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.01930138325751504,['932-956']
+236,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.019255995608711503,['931-957']
+237,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.019110392595062028,['646-650']
+238,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.018964704344238068,['93-95']
+239,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.018964704344238068,['98-100']
+240,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.018935384547823644,"['124-128', '191-195']"
+241,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.01891165688861686,['335-341']
+242,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.018894753682327656,['271-271']
+243,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.01881216651856053,['121-121']
+244,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.018742610319357887,"['665-668', '671-674']"
+245,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.01873745771001188,['287-287']
+246,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.018709332577290606,['564-564']
+247,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.0186396410439728,"['109-111', '124-126']"
+248,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.018611873052747595,['159-161']
+249,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.018606551240326983,"['286-286', '657-657']"
+250,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.018570317768321614,['436-436']
+251,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.018456511766062528,['496-496']
+252,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.018413863622935144,"['357-357', '371-371', '411-411', '416-416']"
+253,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.018364463044224327,"['143-143', '159-159', '213-213']"
+254,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.01831981741099082,['894-900']
+255,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.018046322671553074,['930-930']
+256,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.017960096886234168,['141-143']
+257,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.01794699951760974,['346-353']
+258,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.017806163791441548,['554-554']
+259,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.017652733375848075,['647-647']
+260,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.017635618575686792,['530-534']
+261,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.01760779688246007,['76-76']
+262,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.017543549122894637,['298-298']
+263,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.017487546573339677,"['233-233', '308-308']"
+264,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.01745168050570562,['121-123']
+265,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.01736817524760122,['662-662']
+266,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.017350070668212585,['112-114']
+267,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.017350070668212585,['127-129']
+268,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.01734300934833501,['896-900']
+269,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.01731103369417604,['676-676']
+270,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.017273211548095045,['670-675']
+271,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.01710012359788109,['144-146']
+272,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.017060371203393664,['677-681']
+273,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.017008281324149062,['97-148']
+274,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.016982051525002716,['664-669']
+275,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.016956438468129213,['221-221']
+276,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.01689488633816369,['221-221']
+277,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.016700701602318343,['561-563']
+278,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.016691004361135537,"['388-388', '395-395', '410-410']"
+279,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.01664655939283721,"['129-129', '196-196']"
+280,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.016610848935424662,['4250-4250']
+281,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.016600979782742307,['269-269']
+282,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.016431061713788712,['933-933']
+283,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.01638396972192925,['625-627']
+284,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0163579742246754,['4030-4031']
+285,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.01634147919486019,['66-66']
+286,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.01633060388628399,['211-211']
+287,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.016318559429120288,['331-342']
+288,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.01612295440591023,['658-660']
+289,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.01606627598496431,['354-355']
+290,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.01585907947185198,['935-935']
+291,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.01585907947185198,['937-937']
+292,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.01582160284284744,['641-641']
+293,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.015811238553422764,['676-682']
+294,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.015723519888522466,['533-533']
+295,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.015690749094334717,['88-88']
+296,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.01568921981183267,['197-197']
+297,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.015650572765336792,['89-91']
+298,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.015632267704895196,['197-197']
+299,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.015589843709389121,['213-213']
+300,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.015533252339217481,['213-213']
+301,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.01546804712672362,"['1405-1405', '1412-1412']"
+302,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.015440146443499149,"['456-458', '489-491']"
+303,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.015414950289108224,['945-945']
+304,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.015414237264153486,['1570-1570']
+305,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.015316661418799908,"['208-208', '242-242']"
+306,LANG-693,src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,0.015316661418799908,"['90-90', '124-124']"
+307,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.015271483980861901,['201-201']
+308,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.015237711140669184,['5542-5542']
+309,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.014988917572700862,['106-106']
+310,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.01489117500869143,['251-251']
+311,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.014837119816547329,['251-251']
+312,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.014810017325427631,"['254-254', '286-286']"
+313,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.01472309322393613,['107-107']
+314,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.014660203013961653,['4674-4674']
+315,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.014638951462787018,['295-297']
+316,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.014637950639244097,['159-159']
+317,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.014590627082269676,['300-300']
+318,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.014560568926856449,['125-125']
+319,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.014368237890169432,['523-523']
+320,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.014351596799998803,['200-200']
+321,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.014285223436543955,"['451-453', '647-649', '663-665', '680-682', '698-700', '715-717', '750-752']"
+322,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.014274263442250051,['3886-3886']
+323,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.014227976332843877,['409-409']
+324,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.014198584119338213,['912-917']
+325,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.014084410262537714,['176-176']
+326,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.014068836121170165,['230-232']
+327,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.01400232441092616,['90-90']
+328,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.013950828010648507,['491-491']
+329,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.013950407292669319,"['951-951', '1100-1100']"
+330,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.013869610236068631,['1374-1376']
+331,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.013839892779559923,['934-936']
+332,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.013755825197959289,['913-916']
+333,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.013749200973744435,['953-955']
+334,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.013685410990072186,['701-701']
+335,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.01365606306992255,['492-494']
+336,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.013505039186975347,['125-125']
+337,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.013505039186975347,['97-97']
+338,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.013504447391568234,"['631-631', '1135-1135', '3103-3103', '3125-3125']"
+339,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.013482558876622117,['684-684']
+340,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.013454433483011341,['246-248']
+341,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.013420205211205327,['239-239']
+342,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.01326266856177656,['916-918']
+343,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.013245358432171228,['127-127']
+344,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.013231248506452081,['459-461']
+345,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.013217764695306604,['827-835']
+346,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.013153889678323786,['5025-5027']
+347,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.01312754348961052,['502-502']
+348,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.013059768948790318,"['89-89', '156-156', '266-266', '335-335']"
+349,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.013026411255901317,['69-69']
+350,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.013000751343277935,['3129-3129']
+351,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.01295888265847294,['505-514']
+352,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.012908306597101998,['267-267']
+353,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.01287694438120901,['772-772']
+354,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.012848528397451675,['232-232']
+355,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.012816398068193041,['892-892']
+356,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.012801888043625479,['232-232']
+357,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.012705272283352652,['1380-1382']
+358,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.012684519673895656,['157-157']
+359,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.012666078511013375,['175-177']
+360,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.012663918357866769,['144-149']
+361,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.01252677086052811,['165-165']
+362,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.012495088832406442,['560-560']
+363,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.012487854328109543,"['791-791', '3147-3147']"
+364,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.012452139479278692,"['117-117', '187-187', '226-226', '297-297']"
+365,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.012439893613102878,['517-517']
+366,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.012416924904112763,"['87-87', '120-120', '154-154', '184-184', '223-223', '264-264', '300-300', '333-333']"
+367,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.01233624045960932,['243-243']
+368,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.012328215397403716,"['2293-2295', '2325-2327', '2387-2389', '2421-2423', '2500-2502', '2543-2545', '2604-2606', '2648-2650']"
+369,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.012313433768506533,['100-100']
+370,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.012291459718802043,['243-243']
+371,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.012286159715803779,"['122-122', '127-127', '171-171', '176-176', '223-223', '228-228', '275-275', '280-280', '325-325', '330-330', '374-374', '379-379']"
+372,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.01223006712281939,"['61-63', '83-85']"
+373,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.012136773196360256,['672-674']
+374,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.012076336338636638,['629-631']
+375,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.012008740010682303,['1339-1341']
+376,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.01195913224445578,['490-492']
+377,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.011943977291257532,"['3102-3104', '3124-3126']"
+378,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.011854191729407548,['336-336']
+379,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.011748026071382181,['495-495']
+380,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.011727083212121278,['106-108']
+381,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.011613493843995765,['507-507']
+382,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.011605009720264202,['947-950']
+383,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.011593766005434696,['769-769']
+384,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.011472782999545147,['1127-1127']
+385,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.011413661219699079,['1370-1373']
+386,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.011413063594784676,['3151-3151']
+387,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.01134525005514676,"['86-88', '119-121', '153-155', '183-185', '222-224', '263-265', '299-301', '332-334']"
+388,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.011334651970170105,['150-150']
+389,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.011325209195233676,['142-144']
+390,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.011320454113789322,['132-132']
+391,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.011314247041606646,['228-228']
+392,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.01129350701083839,['150-150']
+393,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.01122332140366173,['3146-3148']
+394,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.01121610993663775,['944-951']
+395,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.011210730618079763,['420-420']
+396,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.011146911426363478,"['116-118', '186-188', '225-227', '296-298']"
+397,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.01112288496611281,['320-322']
+398,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.011084046427257382,['985-985']
+399,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.01104494207124012,['630-632']
+400,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.011035782332066734,['955-955']
+401,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.011009352511993167,['111-111']
+402,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.011001348936216947,"['475-475', '529-529', '548-548', '749-749']"
+403,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.011001276562316207,['253-255']
+404,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.010952333210877753,"['65-65', '87-87']"
+405,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.01092835215790288,['115-115']
+406,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.010924093414543153,['285-287']
+407,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.010844012237176391,"['222-224', '274-276']"
+408,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.010844012237176391,"['121-123', '324-326', '373-375']"
+409,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.010844012237176391,['170-172']
+410,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.010828540417422705,['5799-5799']
+411,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.010786225387580173,"['98-98', '110-110', '122-122', '135-135']"
+412,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.010766130396866455,['348-348']
+413,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.010761249997489161,['519-519']
+414,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.01075641287496104,['178-178']
+415,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.010747071225098373,"['98-98', '110-110', '122-122', '135-135']"
+416,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.010738897409634266,['4281-4281']
+417,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.010715533821566465,['139-139']
+418,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.010614781519313398,['135-137']
+419,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.010614781519313398,['103-105']
+420,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.010552142846697333,['1424-1424']
+421,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.010519699350078099,['191-191']
+422,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.010467650570497946,['790-792']
+423,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.010382728925802593,['131-133']
+424,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.010380271693747833,['5506-5506']
+425,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.010348663356188961,['3149-3149']
+426,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.010348663356188961,"['3105-3105', '3127-3127']"
+427,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.010347550260048181,['118-120']
+428,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.010295935444973087,['5562-5562']
+429,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.010263688318709769,['313-313']
+430,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.010261417639710299,['508-513']
+431,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.010255139989276033,['149-149']
+432,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.01024554643338773,"['62-62', '84-84', '243-243', '273-273']"
+433,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.01024554643338773,['146-146']
+434,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.010213594284882643,['302-303']
+435,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.010165039195757059,['1123-1123']
+436,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.010153208344039348,['214-214']
+437,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.010114526896666419,['3107-3107']
+438,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.010028448772051194,['952-967']
+439,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.010018027409150043,['516-518']
+440,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.009917752433827141,['386-389']
+441,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.009864729234695209,['966-966']
+442,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.009852219640451423,['1134-1136']
+443,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.009808874487240103,"['3100-3104', '3122-3126']"
+444,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.00975050744229464,['433-433']
+445,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.009743815276376277,['163-165']
+446,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.009737737666028713,['375-377']
+447,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.009701948953109316,['4609-4609']
+448,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.009701765848556457,['1547-1547']
+449,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.0096155349006025,"['311-311', '330-330']"
+450,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.009589020998775654,['5631-5631']
+451,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.009565847684063692,['332-332']
+452,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.009513630374368363,['960-960']
+453,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00944159618378235,['3144-3148']
+454,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.009441578836906777,['228-228']
+455,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.00936307905380903,['984-986']
+456,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.009300100705901183,['189-190']
+457,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.009296663324624418,['303-303']
+458,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.009293907690980338,['737-737']
+459,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.009239348524310222,"['280-280', '360-360', '369-369']"
+460,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.009207840648610873,['387-388']
+461,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.009150458965484356,['138-140']
+462,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.008980263457840913,['83-83']
+463,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.008974673639487162,['3859-3859']
+464,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.008929494003767007,"['611-611', '1096-1096', '3035-3035', '3057-3057']"
+465,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.0089147815263356,['1305-1307']
+466,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.00890996393789794,['352-352']
+467,LANG-693,src/main/java/org/apache/commons/lang3/LocaleUtils.java,0.008866719711551252,['147-147']
+468,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.008776281147546193,['558-562']
+469,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.008746020162729587,['5552-5552']
+470,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.008659341991756072,['122-123']
+471,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.008605817373105118,['982-986']
+472,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.008597119149208706,['5769-5785']
+473,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.00856980926501467,['387-389']
+474,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.00855721097276553,['817-817']
+475,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.008463568618061206,['450-451']
+476,LANG-693,src/main/java/org/apache/commons/lang3/RandomStringUtils.java,0.008423881352267952,"['310-312', '329-331']"
+477,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.008251612167381838,"['771-771', '3079-3079']"
+478,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.008177891342843064,['394-396']
+479,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.00817485931558776,['382-383']
+480,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.008165042223728929,['3061-3061']
+481,LANG-693,src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,0.00815055698771626,['288-288']
+482,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.008062584742005966,"['338-338', '350-350']"
+483,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.007981592132957216,['252-255']
+484,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.007954257768575968,['212-212']
+485,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.007937883932136541,['510-510']
+486,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.007937883932136541,['513-513']
+487,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.007889504389029923,"['3034-3036', '3056-3058']"
+488,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00784787240160663,['5540-5540']
+489,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0078429938503085,['332-332']
+490,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.007824286256299558,['234-234']
+491,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.007814309338431285,['3676-3676']
+492,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.007783030310015522,['462-463']
+493,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.0077005594661363076,['694-694']
+494,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.007699033452187642,['368-368']
+495,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.007671600801197137,['5555-5555']
+496,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.007632294400032282,['1080-1080']
+497,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.007586490691427699,['1138-1138']
+498,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.007582831324086636,['1035-1035']
+499,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.007548354031527155,['1337-1351']
+500,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0075344505033818265,['506-508']
+501,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.007514947621813201,"['339-339', '351-351']"
+502,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.007410261647736971,['3078-3080']
+503,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.0073911897776957605,['1391-1394']
+504,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.007329089889644941,"['1164-1164', '1180-1180']"
+505,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.007329089889644941,"['1270-1270', '1286-1286']"
+506,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.0073270542577569585,['348-348']
+507,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.007302360904137249,['1395-1398']
+508,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.007295755869288099,"['328-328', '401-401', '725-725', '775-775', '991-991']"
+509,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.007291732622700952,['610-612']
+510,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.007224492925131914,['377-377']
+511,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.007159182139066096,['3083-3083']
+512,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.00709093612219557,"['885-885', '888-888', '895-895']"
+513,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.00709093612219557,['884-886']
+514,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.007053849464896168,['148-148']
+515,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.00702824388387533,['148-148']
+516,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.006977924378235193,['954-967']
+517,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.006908382049484505,['770-772']
+518,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.0069063501243661115,"['458-460', '464-466']"
+519,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.0068904474853169456,['405-407']
+520,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.006850390036709747,['5595-5595']
+521,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.006808684821568422,['305-305']
+522,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.006800806569369141,"['681-681', '699-699']"
+523,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.006800806569369141,"['645-645', '663-663']"
+524,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.006794425144292975,['5651-5651']
+525,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.006778890106515988,['1344-1348']
+526,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0067540273632037415,['3130-3130']
+527,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.006737871523729053,['1109-1128']
+528,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.00671582351761412,['539-539']
+529,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.006707195822844079,['372-372']
+530,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.006668862891058316,['625-625']
+531,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.006668862891058316,['258-258']
+532,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.006664687408484231,"['3032-3036', '3054-3058']"
+533,LANG-693,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,0.0066180702758880106,['1407-1413']
+534,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0065048172773561844,['512-514']
+535,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0065048172773561844,['509-511']
+536,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00650010195821945,['1095-1097']
+537,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.006486793022897359,"['3037-3037', '3059-3059']"
+538,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.006486793022897359,['3081-3081']
+539,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0064140944905585594,['3076-3080']
+540,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00633907915626749,['3039-3039']
+541,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.006317910273850635,['352-352']
+542,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.006317910273850635,"['378-378', '387-387']"
+543,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.006302767888755184,['328-328']
+544,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.006267854436362369,['501-501']
+545,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.006232122671760694,['399-401']
+546,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.006203504077007378,['551-563']
+547,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.006141753018615972,['897-897']
+548,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.006141753018615972,"['586-586', '899-899']"
+549,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0061228422065660055,['1101-1129']
+550,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.006120777222344977,['549-563']
+551,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.006119118603940577,['547-563']
+552,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.006001099770433797,"['407-407', '421-421']"
+553,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.005923891066096298,['528-530']
+554,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.005824228115141337,['606-606']
+555,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.005806700985115181,['242-244']
+556,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.005757715181461778,['147-149']
+557,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.00573681458763602,['147-149']
+558,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.005595663140719064,['181-181']
+559,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0055638310450649014,['244-256']
+560,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.005476968920021963,['5641-5641']
+561,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.0054103008708347045,['512-512']
+562,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0053448033966378835,['179-181']
+563,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.005287764534793223,"['142-144', '173-175', '210-212']"
+564,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.005262834118210398,['176-178']
+565,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0051385995749302915,"['2332-2332', '2430-2430']"
+566,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.0051374220096264455,['188-188']
+567,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedException.java,0.0051374220096264455,['169-169']
+568,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.00511877308946443,['188-188']
+569,LANG-693,src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,0.00511877308946443,['169-169']
+570,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.005102953125806692,['531-531']
+571,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.005004519911619719,['586-586']
+572,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.004980193559323194,"['2331-2331', '2429-2429']"
+573,LANG-693,src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java,0.004980161905702103,['397-409']
+574,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.004963322802517942,['379-379']
+575,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004942484117931134,['748-750']
+576,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004937878224995954,['490-492']
+577,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.004912238374661761,['5629-5629']
+578,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.00489248181477361,['885-885']
+579,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.004891149839920595,['3705-3705']
+580,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.004828320596299305,"['320-320', '346-346', '391-391', '418-418', '721-721', '771-771', '983-983', '1102-1102']"
+581,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004815999304188811,"['214-214', '801-801']"
+582,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004805565072506375,['493-495']
+583,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0048014939202726805,['5644-5644']
+584,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.004748032700850615,['1099-1099']
+585,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.004726920382386441,"['1646-1646', '1652-1652', '1699-1699', '1705-1705', '1764-1764', '1809-1809', '1867-1867', '1912-1912', '1970-1970', '2015-2015', '2075-2075', '2122-2122', '2181-2181', '2226-2226', '2301-2301', '2335-2335', '2397-2397', '2433-2433', '2508-2508', '2553-2553', '2612-2612', '2658-2658']"
+586,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.004726920382386441,"['1405-1405', '1428-1428', '1451-1451', '1474-1474', '1497-1497', '1520-1520', '1543-1543', '1566-1566', '1589-1589']"
+587,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.004701249693947789,['470-470']
+588,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004596805614308996,['826-828']
+589,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.00451842243711153,['512-514']
+590,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0044629916426691596,['241-256']
+591,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.004404161167161946,['272-274']
+592,LANG-693,src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java,0.004404142209777742,['374-374']
+593,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004362856658339582,['599-601']
+594,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.004356198007659088,['202-202']
+595,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004320689323536209,['497-497']
+596,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004320689323536209,['515-515']
+597,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004320689323536209,"['153-153', '232-232']"
+598,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004320689323536209,['499-499']
+599,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.004253305973291888,"['968-968', '1110-1110']"
+600,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.004253305973291888,['428-428']
+601,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.004225457327197554,['3062-3062']
+602,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.00414368699554883,['550-550']
+603,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.00414368699554883,['849-849']
+604,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.00414368699554883,['846-846']
+605,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004106622292388743,['432-432']
+606,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004096258280193842,['474-476']
+607,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0040655513845087215,"['507-507', '517-517', '535-535', '618-618', '629-629', '635-635', '644-644', '656-656', '659-659', '684-684']"
+608,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004062413564996881,['660-662']
+609,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004006350791910961,['641-644']
+610,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.004006350791910961,"['677-680', '695-698']"
+611,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0038992053004173357,"['146-149', '221-224']"
+612,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.003851764001958181,['247-247']
+613,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0037695959608590635,['496-500']
+614,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0037490951979939615,"['741-743', '797-799', '823-825']"
+615,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.003729547712911559,['4297-4299']
+616,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0036320569561150823,['887-889']
+617,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0036119781696180063,"['473-473', '493-493', '513-513', '533-533', '553-553', '573-573', '593-593', '613-613', '633-633', '653-653', '673-673', '693-693', '713-713', '733-733', '753-753', '773-773', '793-793', '813-813']"
+618,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.0035916378066153548,['184-184']
+619,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0035873920211641434,['4928-4930']
+620,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0035873920211641434,['4305-4307']
+621,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0035873920211641434,['5758-5760']
+622,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.003573404122218659,['578-583']
+623,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0035167780386441017,['579-581']
+624,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.003509446442935589,"['145-152', '220-227']"
+625,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.0034809310453838872,['278-278']
+626,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0034101260198335683,['822-822']
+627,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.003387479911465272,['777-780']
+628,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.003345531801315739,['324-324']
+629,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0032936531943287693,"['520-520', '640-640']"
+630,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0032614364471132973,['816-821']
+631,LANG-693,src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,0.003206910193759924,['277-279']
+632,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0031652752499488164,['624-624']
+633,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.003138378712822657,['392-392']
+634,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0031055579492947206,['1386-1388']
+635,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0030642228840390574,['188-191']
+636,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0030621240886295124,"['417-419', '720-722', '770-772']"
+637,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.003039824898526451,['845-847']
+638,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.003024912779500441,['555-555']
+639,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.003008046560394217,"['724-726', '774-776']"
+640,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.002978738997732163,"['628-630', '634-636']"
+641,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.002967476426977091,['800-802']
+642,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0029034360811109575,['1371-1371']
+643,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.002890088104251542,['534-536']
+644,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.002883098544482566,['192-192']
+645,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0028826200343884476,['352-352']
+646,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0028669697456953492,"['319-321', '345-347']"
+647,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.00284021195335603,['829-829']
+648,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.002736796014630928,['617-619']
+649,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0027236900880786698,['306-306']
+650,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0027095531020651237,['559-559']
+651,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0027083367245830845,['246-250']
+652,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0026577027973456193,['622-622']
+653,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0026448064140114293,['340-340']
+654,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.002643148590073043,['390-392']
+655,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0026351987267286907,['4025-4029']
+656,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.002618099997080302,"['236-236', '321-321', '337-337', '353-353', '369-369', '385-385', '401-401', '417-417', '433-433', '449-449', '848-848', '891-891', '930-930', '969-969', '1008-1008', '1047-1047', '1086-1086', '1125-1125', '1164-1164', '2693-2693', '2715-2715', '2737-2737', '2761-2761', '2783-2783', '2805-2805', '2829-2829', '2851-2851', '2873-2873', '2897-2897', '2919-2919', '2941-2941', '2965-2965', '2987-2987', '3009-3009', '3033-3033', '3055-3055', '3077-3077', '3101-3101', '3123-3123', '3145-3145', '3169-3169', '3191-3191', '3213-3213']"
+657,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0026165908122673266,['3744-3748']
+658,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.002596141359659687,['706-706']
+659,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.002596141359659687,"['732-732', '782-782']"
+660,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.002573482696716787,['746-746']
+661,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.00251420581217068,['867-867']
+662,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0024859701054568404,['4296-4303']
+663,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0024680220959379675,['471-471']
+664,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0024166511601258983,['745-747']
+665,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0023716596537184447,"['1404-1406', '1427-1429', '1450-1452', '1473-1475', '1496-1498', '1519-1521', '1542-1544', '1565-1567', '1588-1590']"
+666,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0023286894768087996,['470-472']
+667,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.002273482264381279,['213-215']
+668,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0022716872882206063,['621-623']
+669,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.002265494445681794,"['2701-2701', '2724-2724', '2745-2745', '2769-2769', '2792-2792', '2813-2813', '2837-2837', '2860-2860', '2881-2881', '2905-2905', '2928-2928', '2949-2949', '2973-2973', '2996-2996', '3017-3017', '3041-3041', '3064-3064', '3085-3085', '3109-3109', '3132-3132', '3153-3153', '3177-3177', '3200-3200', '3221-3221', '4314-4314', '4938-4938', '5028-5028', '5786-5786', '5824-5824']"
+670,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0022401726470904094,['639-641']
+671,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0022106893286910328,['561-561']
+672,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.002181834674664327,['477-477']
+673,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.002169286882932825,['216-216']
+674,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0021690944490709474,['3742-3748']
+675,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.002142831838289353,['869-869']
+676,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0021160609544999694,['752-752']
+677,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0020684192094350437,['655-657']
+678,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0020407996552692627,"['152-152', '245-245', '261-261', '1006-1006', '1050-1050']"
+679,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.002031059740344224,['553-553']
+680,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.001993414027828407,['1370-1372']
+681,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.001991534602806639,['4023-4029']
+682,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0019496725935318933,['727-727']
+683,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0019455066764653042,['231-231']
+684,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0019451888676149307,['886-886']
+685,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0019212544684097006,['686-686']
+686,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0019195245488014198,['258-258']
+687,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0019169317711556278,['713-713']
+688,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.001902220063778764,['582-582']
+689,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.001893145306370228,['848-850']
+690,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.001890134323463617,['643-645']
+691,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0018345269382828687,"['323-323', '339-339', '355-355', '371-371', '387-387', '403-403', '419-419', '435-435', '451-451']"
+692,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0018345269382828687,"['4380-4380', '4445-4445', '4510-4510', '4575-4575', '4640-4640', '4705-4705', '4770-4770', '4835-4835', '4900-4900', '5002-5002', '5093-5093', '5182-5182', '5271-5271', '5360-5360', '5449-5449', '5538-5538', '5627-5627', '5712-5712']"
+693,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0018306184551430656,"['1645-1647', '1698-1700']"
+694,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0017937685385409745,"['867-867', '906-906', '945-945', '984-984', '1023-1023', '1062-1062', '1101-1101', '1140-1140', '1179-1179']"
+695,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0017669050379416835,"['4382-4382', '4447-4447', '4512-4512', '4577-4577', '4642-4642', '4707-4707', '4772-4772', '4837-4837', '4902-4902']"
+696,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0017338578424332673,['276-276']
+697,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0017235739938053247,['852-853']
+698,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0017233465207238657,['171-171']
+699,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00170438931057105,['3470-3473']
+700,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.001702200068091169,['263-263']
+701,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0016989573271170948,['854-854']
+702,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0016786797557238615,['154-154']
+703,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0016742903326658284,['585-587']
+704,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0016625077225080568,"['151-153', '244-246', '260-262', '1005-1007', '1049-1051']"
+705,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0016516420615359695,"['235-237', '320-322', '336-338', '352-354', '368-370', '384-386', '400-402', '416-418', '432-434', '448-450', '847-849', '890-892', '929-931', '968-970', '1007-1009', '1046-1048', '1085-1087', '1124-1126', '1163-1165']"
+706,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0016500451478183742,['5751-5767']
+707,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0016422265196492866,"['3334-3334', '3345-3345', '3356-3356', '3367-3367', '3378-3378', '3389-3389', '3400-3400', '3411-3411', '3422-3422']"
+708,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0016422265196492866,"['3233-3233', '3244-3244', '3255-3255', '3266-3266', '3277-3277', '3288-3288', '3299-3299', '3310-3310', '3321-3321']"
+709,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0016128342148678046,['537-537']
+710,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0016029724445573038,['1022-1022']
+711,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.001598070885180783,"['3753-3753', '3780-3780', '3807-3807', '3834-3834', '3861-3861', '3888-3888', '3915-3915', '3942-3942', '3969-3969', '3986-3986', '4032-4032']"
+712,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0015979091820543065,['1066-1066']
+713,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0015820787085941547,['247-247']
+714,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0015567432724083318,['4348-4348']
+715,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0015505436562309486,['795-795']
+716,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0015046723931426771,['781-783']
+717,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0014869451125769158,['551-551']
+718,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0014813753444597117,"['1199-1199', '1217-1217', '1235-1235', '1253-1253', '1271-1271', '1289-1289', '1307-1307', '1325-1325', '1343-1343']"
+719,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0014813753444597117,['301-301']
+720,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0014770995196082368,['352-352']
+721,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0014434174140675255,"['3451-3451', '3498-3498', '3527-3527', '3556-3556', '3585-3585', '3614-3614', '3643-3643', '3672-3672', '3701-3701']"
+722,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0014247270642363645,"['2828-2832', '2850-2854']"
+723,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0014158881956754642,"['1201-1201', '1219-1219', '1237-1237', '1255-1255', '1273-1273', '1291-1291', '1309-1309', '1327-1327', '1345-1345']"
+724,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013911656690804017,"['2760-2764', '2782-2786']"
+725,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013911656690804015,"['2896-2900', '2918-2922']"
+726,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013911656690804015,"['2964-2968', '2986-2990']"
+727,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013911656690804015,"['3168-3172', '3190-3194']"
+728,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0013885991170306837,['1008-1008']
+729,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.001387571854879028,['4739-4739']
+730,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.001387047372577689,['552-554']
+731,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0013853038066567649,['1052-1052']
+732,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0013827087992204377,['625-638']
+733,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013719574732536826,"['3453-3453', '3500-3500', '3529-3529', '3558-3558', '3587-3587', '3616-3616', '3645-3645', '3674-3674', '3703-3703']"
+734,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013706070247425173,"['2692-2696', '2714-2718']"
+735,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.001356812395997787,"['3476-3476', '3505-3505', '3534-3534', '3563-3563', '3592-3592', '3621-3621', '3650-3650', '3679-3679', '3708-3708', '4302-4302']"
+736,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013390755982539086,['2804-2808']
+737,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013390755982539086,['3008-3012']
+738,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013390755982539086,['2940-2944']
+739,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013390755982539086,['3212-3216']
+740,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.001319011336293647,['861-861']
+741,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00131560138239552,['2872-2876']
+742,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013063943208572743,['2736-2740']
+743,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013037146104774447,['4804-4804']
+744,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013037146104774447,['4869-4869']
+745,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013037146104774447,['4414-4414']
+746,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0013037146104774447,['4479-4479']
+747,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0012655190198482523,"['531-531', '940-940', '2831-2831', '2853-2853']"
+748,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0012567744014398132,['4544-4544']
+749,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0012566031726822405,"['1638-1638', '1656-1656', '1689-1689', '1692-1692', '1709-1709', '1757-1757', '1767-1767', '1800-1800', '1803-1803', '1812-1812', '1860-1860', '1870-1870', '1903-1903', '1906-1906', '1915-1915', '1963-1963', '1973-1973', '2006-2006', '2009-2009', '2018-2018', '2068-2068', '2078-2078', '2113-2113', '2116-2116', '2125-2125', '2174-2174', '2184-2184', '2217-2217', '2220-2220', '2229-2229', '2294-2294', '2304-2304', '2326-2326', '2338-2338', '2388-2388', '2391-2391', '2400-2400', '2422-2422', '2425-2425', '2436-2436', '2501-2501', '2511-2511', '2544-2544', '2547-2547', '2556-2556', '2605-2605', '2615-2615', '2649-2649', '2652-2652', '2661-2661']"
+750,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0012268743596122182,['632-637']
+751,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.001226874359612218,['626-631']
+752,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0012215615023514806,['1373-1373']
+753,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0012009346223953714,"['511-511', '901-901', '2763-2763', '2785-2785']"
+754,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0012009346223953714,"['591-591', '1057-1057', '2967-2967', '2989-2989']"
+755,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0012009346223953714,"['651-651', '1174-1174', '3171-3171', '3193-3193']"
+756,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0012009346223953714,"['551-551', '979-979', '2899-2899', '2921-2921']"
+757,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0011865877676569456,['471-471']
+758,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.001163944761837472,"['571-571', '1018-1018', '2695-2695', '2717-2717']"
+759,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.001142337716573388,"['1637-1639', '1688-1690', '1756-1758', '1799-1801', '1859-1861', '1902-1904', '1962-1964', '2005-2007', '2067-2069', '2112-2114', '2173-2175', '2216-2218']"
+760,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.001122572558310315,['807-809']
+761,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0011140428728728077,"['1763-1765', '1808-1810', '1866-1868', '1911-1913', '1969-1971', '2014-2016', '2074-2076', '2121-2123', '2180-2182', '2225-2227', '2300-2302', '2396-2398', '2507-2509', '2552-2554', '2611-2613', '2657-2659']"
+762,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0011105301969942416,"['711-711', '2943-2943']"
+763,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0011105301969942416,"['751-751', '3011-3011']"
+764,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0011105301969942416,"['671-671', '2807-2807']"
+765,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0011105301969942416,"['811-811', '3215-3215']"
+766,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0011060636915209544,"['2830-2832', '2852-2854']"
+767,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0010864799786259834,"['3452-3454', '3499-3501', '3528-3530', '3557-3559', '3586-3588', '3615-3617', '3644-3646', '3673-3675', '3702-3704']"
+768,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0010730939981641386,"['691-691', '2875-2875']"
+769,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00106216385182345,"['2966-2968', '2988-2990']"
+770,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00106216385182345,"['2762-2764', '2784-2786']"
+771,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00106216385182345,"['3170-3172', '3192-3194']"
+772,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00106216385182345,"['2898-2900', '2920-2922']"
+773,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.001058905126947536,"['731-731', '2739-2739']"
+774,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0010498596374960713,"['3450-3454', '3497-3501', '3526-3530', '3555-3559', '3584-3588', '3613-3617', '3642-3646', '3671-3675', '3700-3704']"
+775,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0010497614822674549,['758-760']
+776,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0010363144855927945,"['2694-2696', '2716-2718']"
+777,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0010270464340742295,['516-518']
+778,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0010166149291395256,['530-532']
+779,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0010010893352538483,['4969-4969']
+780,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000998076771385991,['3214-3216']
+781,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000998076771385991,['2806-2808']
+782,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000998076771385991,['3010-3012']
+783,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000998076771385991,['2942-2944']
+784,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000982213707166226,['550-552']
+785,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000982213707166226,['510-512']
+786,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000982213707166226,['650-652']
+787,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000982213707166226,['590-592']
+788,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000980027154243002,"['4379-4381', '4444-4446', '4509-4511', '4574-4576', '4639-4641', '4704-4706', '4769-4771', '4834-4836', '4899-4901']"
+789,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009743179784635033,['470-472']
+790,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009706362800567165,['2874-2876']
+791,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009672145606690561,"['1738-1738', '1841-1841', '1944-1944', '2048-2048', '2155-2155', '2258-2258', '2482-2482', '2585-2585']"
+792,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009648352707877156,['1619-1619']
+793,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009616652679989048,['570-572']
+794,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000960098067742261,['2738-2740']
+795,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009514861994432781,['5239-5239']
+796,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009432792625226079,['5295-5295']
+797,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009420219188375583,"['1651-1653', '1704-1706']"
+798,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000930875853024284,['810-812']
+799,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000930875853024284,['710-712']
+800,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000930875853024284,['750-752']
+801,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000930875853024284,['670-672']
+802,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009231053522912628,['5061-5061']
+803,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009231053522912628,['5150-5150']
+804,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009231053522912628,['5417-5417']
+805,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009231053522912628,['5680-5680']
+806,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009156054288853053,['5473-5473']
+807,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009156054288853053,['5206-5206']
+808,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009156054288853053,['5736-5736']
+809,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009156054288853053,['5117-5117']
+810,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009084942027571942,['690-692']
+811,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009059855782240045,['5328-5328']
+812,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0009003009604111495,['939-941']
+813,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0008998357878259104,['730-732']
+814,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0008988920729318006,['5384-5384']
+815,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0008805062230304557,"['2334-2336', '2432-2434']"
+816,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0008761463042944841,['900-902']
+817,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0008761463042944841,['978-980']
+818,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0008761463042944841,['1056-1058']
+819,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0008761463042944841,['1173-1175']
+820,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0008614683125715808,['1017-1019']
+821,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0008383711505913578,['2275-2275']
+822,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0007771315285996049,"['1825-1825', '1928-1928', '2031-2031', '2139-2139', '2242-2242', '2449-2449', '2569-2569', '2674-2674']"
+823,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.000775895779134932,['1722-1722']
+824,LANG-693,src/main/java/org/apache/commons/lang3/ClassUtils.java,0.0007664268361162752,['829-831']
+825,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0007382542504304018,['4219-4219']
+826,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0007382542504304018,['4157-4157']
+827,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0007382542504304017,['4063-4063']
+828,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0007382542504304017,['4126-4126']
+829,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00073792912143235,['4188-4188']
+830,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0007284503693436566,['3988-3988']
+831,LANG-693,src/main/java/org/apache/commons/lang3/math/Fraction.java,0.0007265238435494826,['754-761']
+832,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0007056252694134519,"['5001-5003', '5092-5094', '5181-5183', '5270-5272', '5359-5361', '5448-5450', '5537-5539', '5626-5628', '5711-5713']"
+833,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0007040660448271772,['4095-4095']
+834,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0006927951566485504,['2466-2466']
+835,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0006129437228513591,['1670-1670']
+836,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0006037736684622588,"['1781-1781', '1884-1884', '1987-1987', '2093-2093', '2198-2198', '2352-2352', '2525-2525', '2630-2630']"
+837,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0005851766976546618,['1696-1708']
+838,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0005828258605509801,['1643-1655']
+839,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0005682399076202246,['2369-2369']
+840,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0005451904962265377,['204-204']
+841,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0004952594350957396,"['1691-1695', '1802-1806', '1905-1909', '2008-2012', '2115-2119', '2219-2223', '2390-2394', '2424-2428', '2546-2550', '2651-2655']"
+842,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00048455446715647187,['190-190']
+843,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0004441715903834357,"['1196-1200', '1214-1218', '1232-1236', '1250-1254', '1268-1272', '1286-1290', '1304-1308', '1322-1326', '1340-1344']"
+844,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.0004430348831235064,['858-862']
+845,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00044262980513647306,['1702-1708']
+846,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00044067981541714453,['1649-1655']
+847,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00043163822294877243,['1389-1389']
+848,LANG-693,src/main/java/org/apache/commons/lang3/ArrayUtils.java,0.00036139890463718376,['3982-3987']

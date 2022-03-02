@@ -1,0 +1,2 @@
+,bugReport,filename,prob,locations
+226,MATH-209,src/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java,0.05259789538742641,['244-251']

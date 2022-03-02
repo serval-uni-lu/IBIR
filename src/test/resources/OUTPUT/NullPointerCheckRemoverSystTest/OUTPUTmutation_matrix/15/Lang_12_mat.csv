@@ -1,0 +1,16 @@
+prjName,localisationLine,confidence,patchId,brokenTestsCount,pattern,- org.apache.commons.lang3.RandomStringUtilsTest::testLANG805,- org.apache.commons.lang3.RandomStringUtilsTest::testRandomStringUtils,- org.apache.commons.lang3.RandomStringUtilsTest::testLang100
+Lang_12,0,0.3395967052943196,14,2,ConditionalExpressionMutator1,1,1,0
+Lang_12,0,0.3395967052943196,8,0,NullPointerCheckerRemover,0,0,0
+Lang_12,0,0.3395967052943196,1,2,OperatorMutator,0,1,1
+Lang_12,0,0.3395967052943196,13,2,ConditionalExpressionMutator1,0,1,1
+Lang_12,0,0.3395967052943196,5,2,OperatorMutator,1,1,0
+Lang_12,0,0.3395967052943196,10,0,RangeCheckerRemover,0,0,0
+Lang_12,0,0.3395967052943196,12,0,RangeCheckerRemover,0,0,0
+Lang_12,0,0.3395967052943196,3,0,OperatorMutator,0,0,0
+Lang_12,0,0.3395967052943196,15,3,OperatorMutator,1,1,1
+Lang_12,0,0.3395967052943196,4,0,OperatorMutator,0,0,0
+Lang_12,0,0.3395967052943196,9,3,RangeCheckerRemover,1,1,1
+Lang_12,0,0.3395967052943196,7,2,NullPointerCheckerRemover,0,1,1
+Lang_12,0,0.3395967052943196,2,2,OperatorMutator,1,1,0
+Lang_12,0,0.3395967052943196,6,2,OperatorMutator,1,1,0
+Lang_12,0,0.3395967052943196,11,2,RangeCheckerRemover,1,1,0

@@ -1,0 +1,2 @@
+,bugReport,filename,prob,locations
+0,LANG-786,src/java/org/apache/commons/lang/text/StrBuilder.java,0.3395967052943196,"['1186-1188'], ['1233-1235']"

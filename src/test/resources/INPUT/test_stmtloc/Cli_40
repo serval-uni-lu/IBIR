@@ -1,0 +1,3 @@
+,bugReport,filename,prob,locations
+22,CLI-282,src/main/java/org/apache/commons/cli/PatternOptionBuilder.java,0.12138331247085661,['187-187']
+24,CLI-282,src/main/java/org/apache/commons/cli/PatternOptionBuilder.java,0.11778969251137239,['175-175']

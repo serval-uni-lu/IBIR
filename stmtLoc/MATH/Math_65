@@ -1,0 +1,519 @@
+,bugReport,filename,prob,locations
+0,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java,0.39639733364059665,['48-48']
+1,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java,0.3802181663176971,['57-57']
+2,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.31329663798919943,['240-240']
+3,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.26054483721687355,['313-313']
+4,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.24176480531914898,['341-341']
+5,MATH-377,src/main/java/org/apache/commons/math/estimation/WeightedMeasurement.java,0.2321582866343772,"['80-80', '95-95']"
+6,MATH-377,src/main/java/org/apache/commons/math/estimation/WeightedMeasurement.java,0.22302264496210583,['106-106']
+7,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.1745562035110083,['201-201']
+8,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.17430326389205303,['89-89']
+9,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.171653537792392,['255-255']
+10,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.17001402069092247,['265-265']
+11,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.1596964865758678,['253-253']
+12,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.1557118760334903,['250-250']
+13,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.15349105043073824,['122-122']
+14,MATH-377,src/main/java/org/apache/commons/math/linear/NonSquareMatrixException.java,0.1521436528917758,['39-39']
+15,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.14421052505677817,['85-85']
+16,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.13881313496384656,['203-203']
+17,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.13355294635349713,"['80-80', '155-155']"
+18,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.12520440242191466,['198-198']
+19,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.1243183605298309,['142-142']
+20,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.12406215018281468,['189-189']
+21,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.12170730113250522,['163-163']
+22,MATH-377,src/main/java/org/apache/commons/math/estimation/WeightedMeasurement.java,0.12134811184209734,['125-125']
+23,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.12101977640196661,['434-434']
+24,MATH-377,src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfSquares.java,0.12085857686901551,['135-135']
+25,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.12007888722502241,['148-152']
+26,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java,0.1198763255122358,['71-71']
+27,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.11898110027590887,['97-97']
+28,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.11744886662102678,['83-83']
+29,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.11732367831873632,['164-164']
+30,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.1142999713204063,['488-488']
+31,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.11276073619888884,['136-136']
+32,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.11103876531085183,['131-131']
+33,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.10938011157606116,['174-187']
+34,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.10812879513066233,['186-186']
+35,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.1040802305610058,['115-119']
+36,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.10291845792964925,['472-473']
+37,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.10060526626449337,['165-179']
+38,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.09902116374513528,['398-398']
+39,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.09875676563678834,['132-132']
+40,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.09591745091957204,['415-415']
+41,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.09419241269249301,['158-158']
+42,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.0934314483244887,['192-192']
+43,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.09330419624748741,['327-330']
+44,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.09315216466783313,"['943-945', '1009-1011', '1149-1151']"
+45,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.0930893016187561,"['79-79', '121-121', '154-154']"
+46,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.09147870195654148,"['202-202', '231-231']"
+47,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.08973456277172646,['179-187']
+48,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.088191720691518,['456-456']
+49,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.0881841111328691,['148-148']
+50,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.08794416620262144,['103-103']
+51,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.08649014551265397,['289-289']
+52,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.08575455175068465,['181-181']
+53,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.08522362239140933,['162-162']
+54,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.08455969401273498,['314-314']
+55,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.08401974487435429,['108-108']
+56,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.08310299870845025,['173-173']
+57,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.08160779403655913,"['185-185', '200-200']"
+58,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.08087285380297118,"['81-81', '92-92']"
+59,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.08008985729421621,['228-228']
+60,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.07869398259845217,['131-131']
+61,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.07764583746109469,['457-457']
+62,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/WeightedObservedPoint.java,0.07733250916252558,['64-64']
+63,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.07683772425606519,"['80-80', '91-91']"
+64,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.07644428341236804,['56-56']
+65,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.07350627096738561,['190-190']
+66,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.07335498305465775,['173-177']
+67,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.07330595078706569,['145-145']
+68,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.07267010424514715,['173-173']
+69,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.07112062413594601,['222-222']
+70,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.07011463075982717,['164-167']
+71,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.06988623659098815,['1222-1224']
+72,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.0689036340809338,['258-258']
+73,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.06776415066453385,['252-252']
+74,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.0652678467756426,['259-259']
+75,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.06462744945759762,"['461-461', '477-477', '529-529', '545-545']"
+76,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.0645263264923268,['93-93']
+77,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.06351934876712206,['125-125']
+78,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.06345461214400365,['187-187']
+79,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.06316063995998905,['163-163']
+80,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.06259855606306272,['279-279']
+81,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.06241230428298259,"['469-469', '485-485', '537-537', '553-553']"
+82,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.06176275085399574,['135-135']
+83,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.06154670338964711,['250-250']
+84,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.06024228998288097,['225-225']
+85,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.06019828664689733,['221-221']
+86,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.05963865838741344,"['182-182', '197-197']"
+87,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.0595357378098085,['134-134']
+88,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.05906306106483522,['188-188']
+89,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.058428182248329234,['226-232']
+90,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.0565191166440124,['256-256']
+91,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.056406528079523295,['437-437']
+92,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.056406528079523295,"['275-275', '414-414', '597-597']"
+93,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.05523311493044695,['124-126']
+94,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.054692563423920273,['444-444']
+95,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.054692563423920273,"['276-276', '420-420', '605-605']"
+96,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.054396753824187453,['185-185']
+97,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.05360115489522067,"['82-82', '93-93']"
+98,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.05345068923570295,"['258-258', '433-433']"
+99,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.053072825323860304,['128-128']
+100,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.05275301297213965,['109-111']
+101,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.052324099926597964,['200-206']
+102,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.052244367070867076,"['198-198', '224-224']"
+103,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.05195402522829376,['316-316']
+104,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.05080075951927484,"['453-453', '469-469', '521-521', '537-537']"
+105,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.05015494727264958,['86-86']
+106,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.0494646336417235,['248-248']
+107,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.049424146860886406,['291-291']
+108,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.04916152967503812,['181-181']
+109,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.049058072814486736,"['130-130', '161-161']"
+110,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.04889709980344533,['962-962']
+111,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.048844026957259916,['174-174']
+112,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.048419813165483744,"['195-195', '235-235']"
+113,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.04822216047317714,"['462-462', '478-478', '530-530', '546-546']"
+114,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.04820543078078298,['257-257']
+115,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.04781415439888429,"['114-117', '318-321']"
+116,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.0475792832846965,['75-75']
+117,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.047534572062851825,['598-598']
+118,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.04734655057855255,['590-590']
+119,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.04720310537933999,['166-166']
+120,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.04710877799449886,"['196-196', '236-236']"
+121,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.04705283618077838,['177-177']
+122,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.04700894287527467,['581-582']
+123,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.04602858189210739,"['275-275', '415-415', '438-438']"
+124,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.0459599268171127,"['123-126', '326-329']"
+125,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.04567765725182083,"['470-470', '486-486', '538-538', '554-554']"
+126,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.045655035334734424,['193-193']
+127,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.045491499562269416,['486-486']
+128,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.045447141902822875,"['421-421', '445-445', '595-595']"
+129,MATH-377,src/main/java/org/apache/commons/math/estimation/WeightedMeasurement.java,0.04517307708591577,['169-169']
+130,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.04504982202851723,['176-176']
+131,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.045037192475537474,"['267-267', '406-406', '589-589']"
+132,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.045037192475537474,['429-429']
+133,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.045026350312667114,['606-606']
+134,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.04500362292396486,['287-288']
+135,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.044889677773862526,['220-220']
+136,MATH-377,src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfSquares.java,0.04483115260419776,['92-92']
+137,MATH-377,src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfSquares.java,0.04483115260419776,['85-85']
+138,MATH-377,src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfSquares.java,0.04479255309957076,['120-120']
+139,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.04472042010359265,['343-343']
+140,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.04469542127740046,['265-265']
+141,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.044513958703949946,['415-415']
+142,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.044513958703949946,['438-438']
+143,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.044513958703949946,['276-276']
+144,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.044461164860352106,"['125-127', '329-331']"
+145,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.04437308713737697,"['110-114', '159-163']"
+146,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.04310788355954821,"['429-429', '453-453', '603-603']"
+147,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.04302723303007629,['165-165']
+148,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.0421651234338976,['445-445']
+149,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.0421651234338976,['277-277']
+150,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.0421651234338976,['421-421']
+151,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.04195162019199094,['176-176']
+152,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.04140707077996316,"['108-108', '157-157']"
+153,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.04105238076234883,"['119-122', '324-327']"
+154,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.04083324162092882,"['436-436', '461-461', '611-611']"
+155,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.040783533257407106,"['496-497', '514-515', '563-564', '581-582']"
+156,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.04071655427789449,['110-110']
+157,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.040395408709009366,['294-294']
+158,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.03958048885172554,"['504-505', '522-523', '571-572', '589-590']"
+159,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.03955529376028935,['1345-1347']
+160,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.0394236942459607,['277-277']
+161,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.039071696184113554,['119-119']
+162,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.03905700110915277,['109-109']
+163,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.03891434444773181,"['128-131', '332-335']"
+164,MATH-377,src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfSquares.java,0.038801923530903934,['137-137']
+165,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.038258689814421785,"['187-187', '227-227']"
+166,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.03783584167992743,['239-239']
+167,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.037561088934207114,['154-154']
+168,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.03734345321108605,['278-278']
+169,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.037175672245439974,['905-905']
+170,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.036860979898474415,"['129-131', '334-336']"
+171,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.03685639789375986,"['196-196', '236-236']"
+172,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.036743956878668056,['412-412']
+173,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.036620880215991344,['259-259']
+174,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.03647233058977877,['346-346']
+175,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.03601926507687801,"['208-208', '234-234']"
+176,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.03601618760147159,['164-166']
+177,MATH-377,src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfSquares.java,0.03546104152406689,"['54-54', '100-100']"
+178,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.035407217734268026,"['454-454', '470-470', '522-522', '538-538']"
+179,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.03518622863007163,['268-268']
+180,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.035090644142904644,['273-273']
+181,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.034911623494437244,"['197-197', '237-237']"
+182,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.034844910672455306,['134-134']
+183,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.0341681920034525,['514-514']
+184,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0338690809991587,"['429-429', '460-460', '774-774', '833-833', '914-914', '1032-1032', '1068-1068', '1098-1098', '1220-1220', '1443-1443']"
+185,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0338690809991587,"['509-509', '1343-1343', '1367-1367']"
+186,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.03376404511179267,['308-338']
+187,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.03366218840641097,['854-854']
+188,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.03359421329313229,"['190-192', '220-222', '704-706']"
+189,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.03359421329313229,['157-159']
+190,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.033444569619310416,['301-301']
+191,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.03324162309493469,['1144-1148']
+192,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.03323904197110328,['274-274']
+193,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.03287016959240935,['430-430']
+194,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.03287016959240935,['407-407']
+195,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.03287016959240935,['268-268']
+196,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.03282513745341854,['144-144']
+197,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.03268736895878377,['94-94']
+198,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.03252201234235708,['107-130']
+199,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.03173990322106257,['309-309']
+200,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.03149904403228023,['164-164']
+201,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.031031626521671345,['116-139']
+202,MATH-377,src/main/java/org/apache/commons/math/stat/descriptive/summary/SumOfSquares.java,0.030982648149403245,['127-127']
+203,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.030981194105776332,"['488-489', '506-507', '555-556', '573-574']"
+204,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.030382066841053715,['70-70']
+205,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.030217517091154313,['266-266']
+206,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.030065107127336028,['310-310']
+207,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.03000621098092258,['118-140']
+208,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.029959934590055772,['318-318']
+209,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.029921363127471776,['270-270']
+210,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.02959783909247917,['97-97']
+211,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.029544432723149713,['436-436']
+212,MATH-377,src/main/java/org/apache/commons/math/optimization/LeastSquaresConverter.java,0.02921601469009228,['176-176']
+213,MATH-377,src/main/java/org/apache/commons/math/estimation/WeightedMeasurement.java,0.02902977627902174,['115-115']
+214,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.028664313951156786,['269-269']
+215,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.028630493276559286,['270-270']
+216,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.028429146296182217,['131-131']
+217,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.02818300399342179,"['280-280', '306-306', '335-335', '361-361', '382-382', '401-401']"
+218,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.028105047776807248,['162-162']
+219,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.02808419390757211,['162-164']
+220,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.02808419390757211,"['195-197', '225-227', '709-711']"
+221,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.028067315778972955,['1225-1225']
+222,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.027740651829025464,"['283-283', '423-423', '446-446']"
+223,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.027670346583512993,"['465-465', '481-481', '499-499', '517-517', '534-534', '567-567']"
+224,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.027670346583512993,"['200-200', '240-240']"
+225,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0276281543018141,['1351-1353']
+226,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.027346868482018716,"['201-201', '241-241']"
+227,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.027346868482018716,"['473-473', '489-489', '507-507', '525-525', '542-542', '575-575']"
+228,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.027341371764519496,['316-346']
+229,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.027308742569956936,['423-423']
+230,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.027234932190409733,"['188-188', '228-228']"
+231,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.027156393068641392,['422-422']
+232,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.027156393068641392,"['199-199', '239-239', '280-280']"
+233,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.027096880565996163,"['758-758', '794-794', '813-813']"
+234,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.027009003072227956,['439-439']
+235,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.026940184116146987,['276-276']
+236,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.02691524314232164,['205-205']
+237,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.026844400965932505,['429-429']
+238,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.026844400965932505,"['200-200', '240-240', '281-281']"
+239,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.026709124441536055,['264-264']
+240,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.026668846460357807,['187-187']
+241,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.026506858108209602,['317-348']
+242,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.026335006270212315,"['427-427', '458-458']"
+243,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.02627688128766323,"['284-284', '430-430', '454-454']"
+244,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.026225977779040798,['420-420']
+245,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.026075060081255763,"['797-797', '818-818', '838-838', '859-859', '1042-1042', '1083-1083', '1110-1110', '1432-1432', '1449-1449']"
+246,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.026075060081255763,['517-517']
+247,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.025934007084698098,['427-427']
+248,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.025867673015864144,['169-169']
+249,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.025647849428946278,['347-347']
+250,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.025448973000531137,['555-556']
+251,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.02539114193171961,['302-304']
+252,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.025320906895618573,['121-121']
+253,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.024980298583123877,['1158-1158']
+254,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.02485793164367061,"['300-300', '303-303', '353-353', '367-367', '413-413']"
+255,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.02439957859024442,['141-142']
+256,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0243667283042682,"['430-430', '461-461']"
+257,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0243667283042682,"['915-915', '1033-1033', '1074-1074', '1221-1221']"
+258,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0243667283042682,['1156-1156']
+259,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0243667283042682,"['510-510', '1344-1344', '1368-1368']"
+260,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.024335542905822672,['933-933']
+261,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.02426062543445441,['237-237']
+262,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.024258126946541433,['355-355']
+263,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.024231990493986277,['383-383']
+264,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.024214154206924274,['110-110']
+265,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.02414074613031739,['307-311']
+266,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.023847827782752955,['144-144']
+267,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.023847827782752955,['154-154']
+268,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.023818229888945865,['119-119']
+269,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.02362347479402713,['328-328']
+270,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.023567733435004803,"['189-189', '229-229']"
+271,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.023119507668730027,['352-352']
+272,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.023099647045832825,['53-53']
+273,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.023067626914754072,['149-149']
+274,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.02297811623043346,['357-357']
+275,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.022894027204897496,['129-129']
+276,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0227405306414133,['1027-1031']
+277,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.02265531246725196,['186-189']
+278,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.022554915254205637,['257-257']
+279,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.02250132270182881,['287-287']
+280,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.02247713033628657,['150-173']
+281,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.02246378116459024,['170-170']
+282,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.02241350104268689,"['201-201', '241-241', '281-281']"
+283,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.022410657203132536,['168-168']
+284,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.02232530006739701,['213-216']
+285,MATH-377,src/main/java/org/apache/commons/math/optimization/fitting/CurveFitter.java,0.02229044451004607,['70-70']
+286,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.022202471205970443,['440-440']
+287,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.022193827438518457,"['202-202', '242-242', '282-282']"
+288,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.02194867747907693,"['106-106', '140-140', '155-155', '171-171']"
+289,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.021809259159866177,['208-208']
+290,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.021309164260887664,['814-814']
+291,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.021309164260887664,['855-855']
+292,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.021232567868307378,['210-210']
+293,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.02114525930924392,"['431-431', '462-462']"
+294,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.020737280711540625,['287-287']
+295,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.020690632379145528,['946-954']
+296,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.020583285032983675,"['352-354', '366-368']"
+297,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.020535824491324867,['312-312']
+298,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0205135087581565,['342-342']
+299,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.020385474995672948,['216-216']
+300,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.020158635884613564,['131-131']
+301,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.02011509327490308,['161-163']
+302,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.020045454640282095,['176-176']
+303,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.019972851426928354,"['462-462', '478-478', '496-496', '514-514', '530-530', '545-545', '563-563', '580-580']"
+304,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.0198224331786826,['226-226']
+305,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.019814624935321812,['288-288']
+306,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.019707671297362016,['417-417']
+307,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.019707671297362016,['277-277']
+308,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.019324101933127714,"['281-281', '307-307', '336-336', '362-362', '383-383', '402-402']"
+309,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.019242958415626208,['183-183']
+310,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.019064279064975313,['191-191']
+311,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.018947320834463117,['338-338']
+312,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.01891836276123335,['81-81']
+313,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.018899565451804618,['1477-1477']
+314,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.01888201104469238,"['470-470', '486-486', '504-504', '522-522', '538-538', '553-553', '571-571', '588-588']"
+315,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.018882011044692375,['218-218']
+316,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.018771368552034443,['412-414']
+317,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.01873846374539376,['290-290']
+318,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.01850387779553868,['1152-1154']
+319,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.018487232905699154,['221-221']
+320,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0184378518033026,['528-528']
+321,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.018411608590927258,['162-162']
+322,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.018377428266545245,['318-322']
+323,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.01829183215807832,['258-258']
+324,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.018270218327701777,['178-178']
+325,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.018256122248231865,['96-96']
+326,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.01814625007140123,['220-220']
+327,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.018135578931887174,['317-320']
+328,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.01812353678256324,['309-312']
+329,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.018108143204118566,['444-444']
+330,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.01788567787634274,"['478-478', '494-494', '512-512', '530-530', '546-546', '561-561', '579-579', '596-596']"
+331,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.017885677876342737,['219-219']
+332,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.01770338007341667,['298-298']
+333,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.01766708115131884,['1157-1157']
+334,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.017306167175004484,['179-179']
+335,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.017152644150083225,['452-452']
+336,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.017096924883261626,"['199-199', '239-239', '283-283']"
+337,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.017093182152651144,['1444-1444']
+338,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.017001077609288,['1165-1165']
+339,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.01694736644374115,['84-84']
+340,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.016903360397165487,"['207-207', '247-247', '291-291']"
+341,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.01684305130263133,['269-269']
+342,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.01676923885735149,['299-299']
+343,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.01676868786215676,"['128-128', '161-161']"
+344,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.01658648960028645,['273-273']
+345,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.016453691059155767,['393-393']
+346,MATH-377,src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java,0.016328012386803217,['350-350']
+347,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.01625659556108631,['299-301']
+348,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.016232228423911758,['160-160']
+349,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.016184230741775378,['80-80']
+350,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.01616656195797311,['438-438']
+351,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.016075395288672703,['857-857']
+352,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.01603986562883847,['168-168']
+353,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.015710294742980423,['816-816']
+354,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.015704147903828642,['133-133']
+355,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.015604727996760144,['401-401']
+356,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.015274067769236779,['514-514']
+357,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.01526071549550617,['163-163']
+358,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.015016670161429465,['511-511']
+359,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.014781324808961636,['407-407']
+360,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.014741387603094212,"['127-127', '160-160']"
+361,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.01472570587754101,"['973-973', '978-978', '1340-1340', '1346-1346', '1352-1352']"
+362,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.014651725650258646,['142-142']
+363,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.014531538100259069,['431-434']
+364,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.014501520619545911,['369-369']
+365,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.014450209357650968,['988-988']
+366,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.014227237865197279,['446-450']
+367,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.014114504210025376,['439-442']
+368,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.01396901277826541,['951-951']
+369,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.013961371863065113,['947-947']
+370,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.01387707585933247,['278-278']
+371,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.013829910821641929,['408-408']
+372,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.013690228070826604,['1079-1079']
+373,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.01339054129306895,['1038-1038']
+374,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.013363258192114699,['1105-1105']
+375,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.013323849167491152,['1378-1378']
+376,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.013253490556519107,['378-378']
+377,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.01314483441928504,['279-279']
+378,MATH-377,src/main/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java,0.013080613627690587,['167-167']
+379,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.013046318350481218,['722-726']
+380,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.013013808880953387,"['197-197', '237-237']"
+381,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.013010189949030637,['217-217']
+382,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.012944135562089011,['557-557']
+383,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.012944135562089011,['953-953']
+384,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.012889527722083238,['355-355']
+385,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.012781963632155129,['177-177']
+386,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.01250347948130875,['1016-1016']
+387,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.01250347948130875,"['975-975', '1337-1337', '1356-1356']"
+388,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.012446040680323131,['237-238']
+389,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.012422045989616201,['124-127']
+390,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.012327118813673626,"['198-198', '238-238']"
+391,MATH-377,src/main/java/org/apache/commons/math/optimization/general/GaussNewtonOptimizer.java,0.01209441916379558,['112-112']
+392,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.012060174134466948,['296-296']
+393,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.012046112798560089,['133-136']
+394,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.01197191800229926,['880-880']
+395,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.01194723563245035,['470-470']
+396,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.01193733004595083,['133-137']
+397,MATH-377,src/main/java/org/apache/commons/math/linear/SparseFieldMatrix.java,0.011820353514543637,['69-69']
+398,MATH-377,src/main/java/org/apache/commons/math/estimation/AbstractEstimator.java,0.01165798070563273,['223-223']
+399,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.01121432946736369,['330-333']
+400,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.011143197232439058,"['1244-1244', '1256-1256']"
+401,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.011060789356667463,['1263-1263']
+402,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.010872967371025279,['338-341']
+403,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.010776727501587459,['339-343']
+404,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.010699473911635702,"['208-208', '248-248', '292-292']"
+405,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.010645187697275559,['997-997']
+406,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.01054808981897066,['124-124']
+407,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.01052570726144762,['1099-1103']
+408,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.01051417868162929,['131-131']
+409,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.01051417868162929,['164-164']
+410,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.010409567569055731,['399-399']
+411,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.010368380374854607,['105-108']
+412,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.010352277193729609,['313-316']
+413,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.010253505489755956,['1069-1073']
+414,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.010250812383887855,['129-129']
+415,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.010250812383887855,['162-162']
+416,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.010134796223594351,['169-169']
+417,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.009926810306041995,['305-305']
+418,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.009860042092863706,['123-134']
+419,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.009836449890535786,['407-407']
+420,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.009832061632727757,['130-130']
+421,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.009832061632727757,['163-163']
+422,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.009794757165912712,['321-324']
+423,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.009696124283854333,['606-606']
+424,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.009593759486054588,['122-122']
+425,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.00958472177638109,['737-737']
+426,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.009580901226958753,['1129-1129']
+427,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.009497993128995673,"['471-471', '487-487', '539-539', '555-555']"
+428,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.009474827552601558,['497-497']
+429,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.009398026634653018,['1336-1338']
+430,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.009395304931678236,['1230-1230']
+431,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.009343287397249921,['113-113']
+432,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.009317417184668114,['413-413']
+433,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.00927792442933446,['323-327']
+434,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.009275641852699636,"['664-664', '735-735', '757-757', '793-793', '812-812']"
+435,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.009108426022933564,['408-411']
+436,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.00907850883762769,['159-174']
+437,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.008999199276120586,['1057-1057']
+438,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.008923751007950707,['274-274']
+439,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.008839813722316176,['596-596']
+440,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.008819352463145486,['152-152']
+441,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.008743389320662862,['1414-1414']
+442,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.00866926783319321,['329-329']
+443,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.008625543577819517,"['463-463', '479-479', '531-531', '547-547']"
+444,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.008588828986694828,"['475-475', '509-509', '543-543', '576-576']"
+445,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.00854863115426487,['721-739']
+446,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.008538179554119368,['166-170']
+447,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.008488329323022742,"['761-761', '779-779']"
+448,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.008482630219485972,['584-584']
+449,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.008476459412891046,['416-419']
+450,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.00840692212251271,"['199-203', '229-233']"
+451,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.008239178892313232,"['455-455', '471-471', '523-523', '539-539']"
+452,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.008174928176042096,['538-538']
+453,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.008137013517551823,"['192-192', '232-232']"
+454,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.008137013517551823,"['457-457', '473-473', '491-491', '509-509', '526-526', '559-559']"
+455,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.008029188322791413,['422-426']
+456,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.00800206886601499,['151-151']
+457,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.007947474199682376,['414-414']
+458,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.007947474199682376,"['191-191', '231-231', '272-272']"
+459,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.00792634361217905,['1322-1322']
+460,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.007807515146883456,['143-143']
+461,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.007790657262880953,"['467-467', '501-501', '535-535', '568-568']"
+462,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.007756770018267329,['603-603']
+463,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.007741382798761817,"['1472-1472', '1492-1492']"
+464,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.007741382798761817,"['156-156', '189-189', '219-219']"
+465,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.007685631173482099,"['1175-1175', '1191-1191']"
+466,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.0076675110601140935,['328-328']
+467,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.007593656003725973,['1196-1196']
+468,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.007584408066705106,['604-604']
+469,MATH-377,src/main/java/org/apache/commons/math/stat/regression/SimpleRegression.java,0.007390058327156847,['550-554']
+470,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.007317799486927045,['714-718']
+471,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.0072543820750689,['79-79']
+472,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.007245656058483234,"['459-459', '493-493', '527-527', '560-560']"
+473,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.007098224145685312,"['290-290', '317-317', '345-345', '372-372', '392-392', '411-411', '444-444', '475-475', '923-923']"
+474,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.007037716557467021,['605-608']
+475,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.006989985180650993,"['491-491', '527-527']"
+476,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.006947475432357519,['325-325']
+477,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.006659874225124065,['317-317']
+478,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.00657023476548822,['77-77']
+479,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.006516709485752263,['262-262']
+480,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0064774468358788,['727-731']
+481,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.0063713458634051595,"['193-193', '233-233', '273-273']"
+482,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.006329062928869539,"['483-483', '519-519']"
+483,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.006311837024692311,['249-249']
+484,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.00626024276010825,"['625-625', '670-670']"
+485,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.006203022688166837,['970-979']
+486,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.006174232691433505,"['503-503', '521-521', '570-570', '588-588']"
+487,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.006163594513128715,['66-66']
+488,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.006016202127610489,"['311-311', '366-366']"
+489,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.005908052917104485,"['284-284', '310-310', '339-339', '365-365', '386-386', '405-405', '434-434', '465-465']"
+490,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.005908052917104485,"['918-918', '1349-1349', '1372-1372']"
+491,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.005889071792284278,['347-347']
+492,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.005877662368345811,"['475-475', '511-511']"
+493,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.005800072757097055,['1339-1341']
+494,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.005743401745875365,['109-112']
+495,MATH-377,src/main/java/org/apache/commons/math/linear/RealMatrixImpl.java,0.005709346050090345,['344-344']
+496,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.005586142659668068,"['495-495', '513-513', '562-562', '580-580']"
+497,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.005581950521658369,"['487-487', '505-505', '554-554', '572-572']"
+498,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.005581680245343648,['703-703']
+499,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0055529085688076196,"['834-834', '1034-1034', '1106-1106']"
+500,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.00536417579309933,['67-67']
+501,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.0053268314371941235,['345-345']
+502,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.005316284957354471,['1228-1228']
+503,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.005250290330295976,"['1241-1241', '1253-1253', '1290-1290']"
+504,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.005166854751022545,['1369-1369']
+505,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowRealMatrix.java,0.005163494333902169,['342-342']
+506,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.005117061438033068,['1163-1163']
+507,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.005025785366034231,['644-646']
+508,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.005001229156160688,['337-337']
+509,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.004936302152922192,"['285-285', '312-312', '340-340', '367-367', '387-387', '406-406', '435-435', '466-466']"
+510,MATH-377,src/main/java/org/apache/commons/math/linear/Array2DRowFieldMatrix.java,0.004840923123329597,['334-334']
+511,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.004719293733463257,['617-618']
+512,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.004322381644132328,['916-916']
+513,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.004162294575955823,['1161-1161']
+514,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0037518574772102565,['643-648']
+515,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0034571826255080126,['650-651']
+516,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.003341975035605017,['1261-1264']
+517,MATH-377,src/main/java/org/apache/commons/math/linear/BigMatrixImpl.java,0.0026034581179845977,['620-622']

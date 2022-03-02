@@ -1,0 +1,20 @@
+prjName,localisationLine,confidence,patchId,brokenTestsCount,pattern,- org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testEquals,- org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testEqualsOnStrings,- org.apache.commons.lang3.exception.ContextedExceptionTest::testAddContextValue,- org.apache.commons.lang3.exception.ContextedExceptionTest::testJavaSerialization,- org.apache.commons.lang3.exception.ContextedExceptionTest::testSetContextValue,- org.apache.commons.lang3.exception.ContextedExceptionTest::testGetFirstContextValue,- org.apache.commons.lang3.exception.ContextedExceptionTest::testGetContextValues,- org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest::testAddContextValue,- org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest::testJavaSerialization,- org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest::testSetContextValue,- org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest::testGetFirstContextValue,- org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest::testGetContextValues,- org.apache.commons.lang3.exception.DefaultExceptionContextTest::testAddContextValue,- org.apache.commons.lang3.exception.DefaultExceptionContextTest::testJavaSerialization,- org.apache.commons.lang3.exception.DefaultExceptionContextTest::testSetContextValue,- org.apache.commons.lang3.exception.DefaultExceptionContextTest::testGetFirstContextValue,- org.apache.commons.lang3.exception.DefaultExceptionContextTest::testGetContextValues
+Lang_14,0,0.3395967052943196,25,0,ConditionalExpressionMutator2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,39,0,StatementMover,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,1,1,InstanceOfRemover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,2,1,InstanceOfRemover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,27,1,ConditionalExpressionMutator1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,29,1,OperatorMutator,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,28,1,ConditionalExpressionMutator1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,34,1,VariableReplacer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,3,0,ConditionalExpressionMutator2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,26,0,ConditionalExpressionMutator2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,6,0,ConditionalExpressionMutator2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,30,1,VariableReplacer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,23,0,ConditionalExpressionMutator2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,42,0,StatementRemover,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,38,0,StatementMover,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,24,1,ConditionalExpressionMutator2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,43,17,StatementRemover,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lang_14,0,0.3395967052943196,5,1,ConditionalExpressionMutator2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lang_14,0,0.3395967052943196,4,0,ConditionalExpressionMutator2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

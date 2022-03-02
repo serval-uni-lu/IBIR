@@ -1,0 +1,3 @@
+prjName,localisationLine,confidence,patchId,brokenTestsCount,pattern,- org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testEquals
+Lang_14,0,0.3395967052943196,1,1,InstanceOfRemover,1
+Lang_14,0,0.3395967052943196,2,1,InstanceOfRemover,1

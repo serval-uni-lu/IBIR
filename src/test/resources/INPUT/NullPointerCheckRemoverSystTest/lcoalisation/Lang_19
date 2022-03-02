@@ -1,0 +1,2 @@
+,bugReport,filename,prob,locations
+0,LANG-786,src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,0.3395967052943196,"['40-40'], ['50-52'], ['57-59'], ['84-86']"
