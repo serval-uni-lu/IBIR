@@ -16,10 +16,10 @@ public class SuspCodeNode {
     public ITree suspCodeAstNode;
     public String suspCodeStr;
     public String suspiciousJavaFile;
-    public int buggyLine;
+    public int[] buggyLines;
 
     public SuspCodeNode(File javaBackup, File classBackup, File targetJavaFile, File targetClassFile, int startPos,
-                        int endPos, ITree suspCodeAstNode, String suspCodeStr, String suspiciousJavaFile, int buggyLine) {
+                        int endPos, ITree suspCodeAstNode, String suspCodeStr, String suspiciousJavaFile, int[] buggyLines) {
         this.javaBackup = javaBackup;
         this.classBackup = classBackup;
         this.targetJavaFile = targetJavaFile;
@@ -29,19 +29,15 @@ public class SuspCodeNode {
         this.suspCodeAstNode = suspCodeAstNode;
         this.suspCodeStr = suspCodeStr;
         this.suspiciousJavaFile = suspiciousJavaFile;
-        this.buggyLine = buggyLine;
+        this.buggyLines = buggyLines;
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (obj == null) return false;
-        if (obj instanceof SuspCodeNode) {
-            SuspCodeNode suspN = (SuspCodeNode) obj;
-            if (startPos != suspN.startPos) return false;
-            if (endPos != suspN.endPos) return false;
-            if (suspiciousJavaFile.equals(suspN.suspiciousJavaFile)) return true;
-        }
-        return false;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        SuspCodeNode that = (SuspCodeNode) o;
+        return startPos ==  that.startPos && endPos == that.endPos && Objects.equals(suspiciousJavaFile, that.suspiciousJavaFile);
     }
 
     @Override

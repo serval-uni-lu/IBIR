@@ -41,7 +41,7 @@ public class RandomLocalisationProvider {
      * the path to the project + the path until the classes. i.e. path/to/Lang_1/src/main/java/
      */
     private Set<File> allJavaFiles;
-    private final Map<File, List<Pair<ITree, String>>> fileAstList;
+    private final Map<File, List<Pair<ITree, AstParser.AstNode>>> fileAstList;
 
     /**
      * 2 = 1 line for header + 1 Line for a localisation entry.
@@ -112,7 +112,7 @@ public class RandomLocalisationProvider {
         this.defects4jPath = defects4jPath;
     }
 
-    private List<Pair<Pair<ITree, String>, File>> nodeFilePair;
+    private List<Pair<Pair<ITree, AstParser.AstNode>, File>> nodeFilePair;
 
     public void init(ErrorCallback errorCallback) {
         // load all files AST in a list and shuffle them.
@@ -124,12 +124,12 @@ public class RandomLocalisationProvider {
                 e = new FileLoadingException(javaFile);
                 if (errorCallback == null || errorCallback.onError(e, javaFile, allJavaFiles)) continue;
             }
-            List<Pair<ITree, String>> fAst = getFileInterestingAstNodes(javaFile);
+            List<Pair<ITree, AstParser.AstNode>> fAst = getFileInterestingAstNodes(javaFile);
             if (fAst == null || fAst.isEmpty()) {
                 e = new FileLoadingException(javaFile);
                 if (errorCallback == null || errorCallback.onError(e, javaFile, allJavaFiles)) continue;
             } else {
-                for (Pair<ITree, String> nodeAst : fAst) {
+                for (Pair<ITree, AstParser.AstNode> nodeAst : fAst) {
                     nodeFilePair.add(new Pair<>(nodeAst, javaFile));
                 }
             }
@@ -149,9 +149,9 @@ public class RandomLocalisationProvider {
         return list.get(sourceOfRandomness.nextInt(length));
     }
 
-    private List<Pair<ITree, String>> getFileInterestingAstNodes(File javaFile) {
+    private List<Pair<ITree, AstParser.AstNode>> getFileInterestingAstNodes(File javaFile) {
         if (!fileAstList.containsKey(javaFile)) {
-            List<Pair<ITree, String>> ast = new AstParser().parseSuspiciousCode(javaFile);
+            List<Pair<ITree, AstParser.AstNode>> ast = new AstParser().parseSuspiciousCode(javaFile);
             fileAstList.put(javaFile, ast);
         }
         return fileAstList.get(javaFile);
@@ -167,8 +167,8 @@ public class RandomLocalisationProvider {
     }
 
     private void removeFileFromNodesList(File javaFile) {
-        Set<Pair<Pair<ITree, String>, File>> nodeFilePairToDelete = new HashSet<>();
-        for (Pair<Pair<ITree, String>, File> pairFilePair : nodeFilePair) {
+        Set<Pair<Pair<ITree, AstParser.AstNode>, File>> nodeFilePairToDelete = new HashSet<>();
+        for (Pair<Pair<ITree, AstParser.AstNode>, File> pairFilePair : nodeFilePair) {
             if (javaFile.equals(pairFilePair.secondElement)) nodeFilePairToDelete.add(pairFilePair);
         }
         nodeFilePair.removeAll(nodeFilePairToDelete);
@@ -180,10 +180,10 @@ public class RandomLocalisationProvider {
         SuspCodeNode suspCodeNode = null;
         FileLoadingException e = null;
         while (suspCodeNode == null && !nodeFilePair.isEmpty()) {
-            Pair<Pair<ITree, String>, File> pair = nodeFilePair.get(0);
+            Pair<Pair<ITree, AstParser.AstNode>, File> pair = nodeFilePair.get(0);
             nodeFilePair.remove(0);
             File javaFile = pair.secondElement;
-            Pair<ITree, String> suspCodePair = pair.firstElement;
+            Pair<ITree, AstParser.AstNode> suspCodePair = pair.firstElement;
             if (!javaFile.exists()) {
                 e = new FileLoadingException(javaFile);
                 if (errorCallback == null || errorCallback.onError(e, javaFile, allJavaFiles)) {
@@ -228,13 +228,13 @@ public class RandomLocalisationProvider {
             log.debug("selected file = " + javaFilePath);
 
             ITree suspCodeAstNode = suspCodePair.getFirst(); //scp.getSuspiciousCodeAstNode();
-            String suspCodeStr = suspCodePair.getSecond(); //scp.getSuspiciousCodeStr();
+            AstParser.AstNode node = suspCodePair.getSecond();
+            String suspCodeStr = node.nodeStr; //scp.getSuspiciousCodeStr();
+            int[] buggyLines = {node.startLine, node.endLine};
             log.debug("selected file Suspicious Code: \n" + suspCodeStr);
 
-            int startPos = suspCodeAstNode.getPos();
-            int endPos = startPos + suspCodeAstNode.getLength();
             suspCodeNode = new SuspCodeNode(javaBackup, classBackup, javaFile, targetClassFile,
-                    startPos, endPos, suspCodeAstNode, suspCodeStr, javaFilePath, -1);
+                    node.startPos, node.endPos, suspCodeAstNode, suspCodeStr, javaFilePath, buggyLines);
 
         }
         return suspCodeNode;
@@ -248,7 +248,7 @@ public class RandomLocalisationProvider {
         SuspCodeNode suspCodeNode = null;
         // select a file
         File javaFile;
-        List<Pair<ITree, String>> fileAst = null;
+        List<Pair<ITree, AstParser.AstNode>> fileAst = null;
         FileLoadingException e = null;
 
         while (fileAst == null || fileAst.isEmpty() || e != null || suspCodeNode == null) {
@@ -299,15 +299,13 @@ public class RandomLocalisationProvider {
                 }
                 log.debug("selected file = " + javaFilePath);
 
-                Pair<ITree, String> suspCodePair = randomItem(getRandom(), fileAst);
+                Pair<ITree, AstParser.AstNode> suspCodePair = randomItem(getRandom(), fileAst);
                 ITree suspCodeAstNode = suspCodePair.getFirst(); //scp.getSuspiciousCodeAstNode();
-                String suspCodeStr = suspCodePair.getSecond(); //scp.getSuspiciousCodeStr();
-                log.debug("selected file Suspicious Code: \n" + suspCodeStr);
-
-                int startPos = suspCodeAstNode.getPos();
-                int endPos = startPos + suspCodeAstNode.getLength();
+                AstParser.AstNode node = suspCodePair.getSecond();
+                int[] buggyLines = {node.startLine, node.endLine};
+                log.debug("selected file Suspicious Code: \n" + node.nodeStr);
                 suspCodeNode = new SuspCodeNode(javaBackup, classBackup, javaFile, targetClassFile,
-                        startPos, endPos, suspCodeAstNode, suspCodeStr, javaFilePath, -1);
+                        node.startPos, node.endPos, suspCodeAstNode, node.nodeStr, javaFilePath, buggyLines);
             }
         }
 

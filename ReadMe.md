@@ -17,7 +17,7 @@ A preprint of the approach has been published in arxiv https://www.researchgate.
 
 ## Setup defects4j bugs:
 
-You need java version 8.
+You need java version 8 , perl and maven. Check the d4j git for more details: https://github.com/rjust/defects4j
 
 On a bash terminal, run:
 

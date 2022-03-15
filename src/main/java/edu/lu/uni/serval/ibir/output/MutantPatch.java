@@ -1,6 +1,7 @@
 package edu.lu.uni.serval.ibir.output;
 
 import edu.lu.uni.serval.ibir.experiments.OchiaiUtils;
+import edu.lu.uni.serval.ibir.localisation.IbirSuspiciousPosition;
 import edu.lu.uni.serval.ibir.localisation.PrioSuspeciousPosition;
 import edu.lu.uni.serval.tbar.info.Patch;
 
@@ -17,10 +18,10 @@ public class MutantPatch {
     private final int brokenTestsCount;
     private final Set<String> brokenTests;
     private final int patchId;
-    private final PrioSuspeciousPosition prioSuspeciousPosition;
+    private final IbirSuspiciousPosition prioSuspeciousPosition;
 
 
-    public MutantPatch(String projectName, Set<String> brokenTests, int brokenTestsCount, Patch patch, String patchCode, String patternUsedToInjectBug, int patchId, PrioSuspeciousPosition prioSuspeciousPosition) {
+    public MutantPatch(String projectName, Set<String> brokenTests, int brokenTestsCount, Patch patch, String patchCode, String patternUsedToInjectBug, int patchId, IbirSuspiciousPosition prioSuspeciousPosition) {
         this.projectName = projectName;
         this.brokenTests = brokenTests;
         this.patchId = patchId;
@@ -74,7 +75,7 @@ public class MutantPatch {
         return Objects.hash(projectName, patch);
     }
 
-    public PrioSuspeciousPosition getPrioSuspeciousPosition() {
+    public IbirSuspiciousPosition getPrioSuspeciousPosition() {
         return prioSuspeciousPosition;
     }
 
@@ -90,6 +91,14 @@ public class MutantPatch {
         return hasSameBrokenTestsAsOriginalBug(testsBrokenByOriginalBug) || brokenTests != null && !brokenTests.isEmpty() && testsBrokenByOriginalBug.containsAll(brokenTests);
     }
 
+    public int getLineStart(){
+        return this.getPrioSuspeciousPosition().getLineStart();
+    }
+
+    public int getLineEnd(){
+        return this.getPrioSuspeciousPosition().getLineEnd();
+    }
+
     /**
      * it will add the following values in the same line  : prjName, localisationLine, confidence, patchId, brokenTestsCount, pattern.
      *
@@ -100,8 +109,8 @@ public class MutantPatch {
      */
     public String toCsv(Set<String> testsBrokenByOriginalBug, long elapsedTime) {
         return this.getProjectName() + "," +
-                this.getPrioSuspeciousPosition().localisationResultLine + "," +
-                this.getPrioSuspeciousPosition().localisationResultLineConfidence + "," +
+                this.getPrioSuspeciousPosition().getLocalisationResultLine() + "," +
+                this.getPrioSuspeciousPosition().getLocalisationResultLineConfidence() + "," +
                 this.getPatchId() + "," +
                 this.getBrokenTestsCount() + "," +
                 this.getPatternUsedToInjectBug() + "," +
@@ -110,6 +119,9 @@ public class MutantPatch {
                 this.breaksOnlySubsetOfBrokenTestsByOriginalBug(testsBrokenByOriginalBug) + "," +
                 String.join(" ", this.getBrokenTests()) + "," +
                 Serializer.to(patch) + "," +
-                elapsedTime;
+                elapsedTime+ "," +
+                this.getLineStart() + "," +
+                this.getLineEnd()+ "," +
+                this.getPrioSuspeciousPosition().classPath ;
     }
 }

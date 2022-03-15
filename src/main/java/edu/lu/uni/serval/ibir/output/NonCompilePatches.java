@@ -69,11 +69,11 @@ public class NonCompilePatches {
     }
 
 
-    public PatchEntry addPatch(String fl_loc, String id, Patch patch, String patternName) throws IOException {
+    public PatchEntry addPatch(String fl_loc, String id, Patch patch, String patternName, String lineStart, String lineEnd) {
         PatchEntry dupl = getDuplicate(patch);
         boolean isDupl = dupl != null;
         if (!isDupl) {
-            PatchEntry patchEntry = new PatchEntry(fl_loc, id, patch);
+            PatchEntry patchEntry = new PatchEntry(fl_loc, id, patch, lineStart, lineEnd);
             nonCompilableMutantsIdPattern.put(id, patternName);
             nonCompilablePatches.add(patchEntry);
             return null;

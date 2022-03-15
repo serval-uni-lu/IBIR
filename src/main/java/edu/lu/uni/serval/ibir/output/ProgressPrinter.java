@@ -47,14 +47,17 @@ public class ProgressPrinter {
         }
     }
 
-    public PatchEntry addPatch(int fl_loc, int id, Patch patch, long elapsedTime) throws IOException {
-        return addPatch(String.valueOf(fl_loc), String.valueOf(id), patch, elapsedTime);
+
+    public PatchEntry addPatch(int[] lineNumbers, int fl_loc, int id, Patch patch, long elapsedTime) throws IOException {
+        return addPatch(lineNumbers, String.valueOf(fl_loc), String.valueOf(id), patch, elapsedTime);
     }
 
-    public PatchEntry addPatch(String fl_loc, String id, Patch patch, long elapsedTime) throws IOException {
+    public PatchEntry addPatch(int[] lineNumbers, String fl_loc, String id, Patch patch, long elapsedTime) throws IOException {
         PatchEntry dupl = getDuplicate(patch);
         boolean isDupl = dupl != null;
-        PatchEntry patchEntry = isDupl ? new PatchEntry(fl_loc, id, patch, dupl) : new PatchEntry(fl_loc, id, patch);
+        String lineStart = String.valueOf(lineNumbers[0]);
+        String lineEnd = String.valueOf(lineNumbers[1]);
+        PatchEntry patchEntry = isDupl ? new PatchEntry(fl_loc, id, patch, dupl, lineStart,lineEnd) : new PatchEntry(fl_loc, id, patch,  lineStart,lineEnd);
         printPatch(patchEntry, elapsedTime);
         if (!isDupl) {
             triedPatchCandidates.add(patchEntry);

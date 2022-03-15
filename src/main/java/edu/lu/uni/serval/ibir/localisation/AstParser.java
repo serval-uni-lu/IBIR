@@ -5,12 +5,14 @@ import edu.lu.uni.serval.entity.Pair;
 import edu.lu.uni.serval.jdt.tree.ITree;
 import edu.lu.uni.serval.tbar.utils.Checker;
 import edu.lu.uni.serval.tbar.utils.FileHelper;
+import org.apache.commons.collections4.map.LRUMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * @See edu.lu.uni.serval.tbar.utils.SuspiciousCodeParser
@@ -23,19 +25,24 @@ public class AstParser {
     private boolean allowFieldDeclaration = false;
     private boolean allowMethodDeclaration = false;
     private boolean allowTypeDeclaration = false;
+    private LRUMap<File, String> lruCache;
 
-    public List<Pair<ITree, String>> parseSuspiciousCode(File javaFile) {
+    public AstParser() {
+        lruCache = new LRUMap<>(5);
+    }
+
+    public List<Pair<ITree, AstNode>> parseSuspiciousCode(File javaFile) {
         this.javaFile = javaFile;
         ITree rootTree = new ASTGenerator().generateTreeForJavaFile(javaFile, ASTGenerator.TokenType.EXP_JDT);
         return identifySuspiciousCodeAst(rootTree);
     }
 
-    private List<Pair<ITree, String>> identifySuspiciousCodeAst(ITree tree) {
-        List<Pair<ITree, String>> suspiciousCode = new ArrayList<>();
+    private List<Pair<ITree, AstNode>> identifySuspiciousCodeAst(ITree tree) {
+        List<Pair<ITree, AstNode>> suspiciousCode = new ArrayList<>();
         if (!Checker.isBlock(tree.getType())) {
             if (tree != null && isRequiredAstNode(tree)) {
-                Pair<ITree, String> pair = new Pair<>(tree, readSuspiciousCode(tree));
-                 if (!suspiciousCode.contains(pair)) { // todo check before reading the code because the previous line is expensive. but in this case it should be fine.
+                Pair<ITree, AstNode> pair = new Pair<>(tree, new AstNode(tree, javaFile, readFile()));
+                if (!suspiciousCode.contains(pair)) { // todo check before reading the code because the previous line is expensive. but in this case it should be fine.
                     suspiciousCode.add(pair);
                 }
             }
@@ -49,25 +56,7 @@ public class AstParser {
                 suspiciousCode.addAll(identifySuspiciousCodeAst(child));
             }
         }
-//        List<ITree> children = tree.getChildren();
-//
-//        for (ITree child : children) {
-//            int startPosition = child.getPos();
-//            int startLine = unit.getLineNumber(startPosition);
-//
-//            if (Checker.isBlock(child.getType())) {
-//                suspiciousCode.addAll(identifySuspiciousCodeAst(child, unit));
-//            } else {
-//                if (!isRequiredAstNode(child)) {
-//                    child = traverseParentNode(child);
-//                    if (child == null) continue;
-//                }
-//                Pair<ITree, String> pair = new Pair<ITree, String>(child, readSuspiciousCode(child));
-//                if (!suspiciousCode.contains(pair)) { // todo check before reading the code because the previous line is expensive.
-//                    suspiciousCode.add(pair);
-//                }
-//            }
-//        }
+
         return suspiciousCode;
     }
 
@@ -82,11 +71,53 @@ public class AstParser {
         return false;
     }
 
-    private String readSuspiciousCode(ITree suspiciousCodeAstNode) {
-        String javaFileContent = FileHelper.readFile(this.javaFile);
-        int startPos = suspiciousCodeAstNode.getPos();
-        int endPos = startPos + suspiciousCodeAstNode.getLength();
-        return javaFileContent.substring(startPos, endPos);
+    private String readFile() {
+        String res = lruCache.get(this.javaFile);
+        if (res == null) {
+            res = FileHelper.readFile(this.javaFile);
+            lruCache.put(this.javaFile, res);
+        }
+        return res;
+    }
+
+    public static class AstNode {
+
+        public final File file;
+        public final int startPos;
+        public final int endPos;
+        public final String nodeStr;
+        public final ITree suspiciousCodeAstNode;
+        public final int startLine;
+        public final int endLine;
+
+        private AstNode(ITree suspiciousCodeAstNode, File file, String javaFileContent) {
+            this.file = file;
+            this.suspiciousCodeAstNode = suspiciousCodeAstNode;
+            this.startPos = suspiciousCodeAstNode.getPos();
+            this.endPos = startPos + suspiciousCodeAstNode.getLength();
+            this.nodeStr = javaFileContent.substring(startPos, endPos);
+            String endLineSubs = javaFileContent.substring(0, endPos);
+            this.endLine = getLineNumber(endLineSubs);
+            this.startLine = getLineNumber(endLineSubs.substring(0, startPos));
+        }
+
+        private int getLineNumber(String string) {
+            String lineBreak = "\n";
+            return ((string.length() - string.replace(lineBreak, "").length()) / lineBreak.length()) + 1;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            AstNode astNode = (AstNode) o;
+            return startPos == astNode.startPos && endPos == astNode.endPos && Objects.equals(file, astNode.file) ;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(file, startPos, endPos);
+        }
     }
 
 }

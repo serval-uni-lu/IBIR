@@ -47,7 +47,7 @@ public class IbirInjector {
     private final ProgressPrinter progressPrinter;
     private final NonCompilePatches nonCompilePatchesCollector;
 
-    public enum LocalisationSelection {IBIR, RANDOM}
+    public enum LocalisationSelection {IBIR, RANDOM, ALL}
 
     public enum Patterns {IBIR, RANDOM}
 
@@ -113,16 +113,16 @@ public class IbirInjector {
 
         this.resultCollectors = new ArrayList<>();
 
-
+        boolean exhaustiveInjection = LocalisationSelection.ALL.equals(NODE_SELECTION);
         if (ResultType.PCL_AND_DEFAULT.equals(resultType)) {
             Set<String> pclFiles = loadPerfectLocalisationFiles(D4J_INFOS_DIR, projectName, String.valueOf(bugId), dp.srcPath);
-            this.resultCollectors.add(new PclResultCollector(numberOfMutants, pclFiles, testsBrokenByOriginalBug, projectName_bugId));
-            this.resultCollectors.add(new ResultCollector(numberOfMutants, testsBrokenByOriginalBug, projectName_bugId));
+            this.resultCollectors.add(new PclResultCollector(numberOfMutants, pclFiles, testsBrokenByOriginalBug, projectName_bugId, exhaustiveInjection));
+            this.resultCollectors.add(new ResultCollector(numberOfMutants, testsBrokenByOriginalBug, projectName_bugId, exhaustiveInjection));
         } else if (ResultType.PCL.equals(resultType)) {
             Set<String> pclFiles = loadPerfectLocalisationFiles(D4J_INFOS_DIR, projectName, String.valueOf(bugId), dp.srcPath);
-            this.resultCollectors.add(new PclResultCollector(numberOfMutants, pclFiles, testsBrokenByOriginalBug, projectName_bugId));
+            this.resultCollectors.add(new PclResultCollector(numberOfMutants, pclFiles, testsBrokenByOriginalBug, projectName_bugId, exhaustiveInjection));
         } else {
-            this.resultCollectors.add(new ResultCollector(numberOfMutants, testsBrokenByOriginalBug, projectName_bugId));
+            this.resultCollectors.add(new ResultCollector(numberOfMutants, testsBrokenByOriginalBug, projectName_bugId, exhaustiveInjection));
         }
 
 
@@ -211,9 +211,9 @@ public class IbirInjector {
             log.debug("Suspicious Code: \n" + suspCodeStr);
 
             int startPos = suspCodeAstNode.getPos();
-            int endPos = startPos + suspCodeAstNode.getLength();
+            int[] buggyLines = {buggyLine, buggyLine};
             SuspCodeNode scn = new SuspCodeNode(javaBackup, classBackup, targetJavaFile, targetClassFile,
-                    startPos, endPos, suspCodeAstNode, suspCodeStr, suspiciousJavaFile, buggyLine);
+                    startPos,startPos + suspCodeAstNode.getLength(), suspCodeAstNode, suspCodeStr, suspiciousJavaFile, buggyLines); // fixme store start and end lines
             scns.add(scn);
         }
         return scns;
@@ -227,7 +227,7 @@ public class IbirInjector {
         return result;
     }
 
-    private void testGeneratedPatches(List<Patch> patchCandidates, SuspCodeNode scn, FixTemplate ft, PrioSuspeciousPosition prioSuspeciousPosition) throws IOException, CsvValidationException {
+    private void testGeneratedPatches(List<Patch> patchCandidates, SuspCodeNode scn, FixTemplate ft, IbirSuspiciousPosition prioSuspeciousPosition) throws IOException, CsvValidationException {
         // Testing generated patches.
         for (Patch patch : patchCandidates) {
             // todo refactor this mess - separate or merge...
@@ -261,19 +261,24 @@ public class IbirInjector {
                     scn.targetClassFile.delete();
 
                     if (!isPatchedCodeCompilable(scn)) {
-                        nonCompilePatchesCollector.addPatch(String.valueOf(prioSuspeciousPosition.localisationResultLine), String.valueOf(patchId), patch, getPatternName(ft));
+                        nonCompilePatchesCollector.addPatch(
+                                String.valueOf(prioSuspeciousPosition.getLocalisationResultLine()),
+                                String.valueOf(patchId), patch, getPatternName(ft),
+                                String.valueOf(prioSuspeciousPosition.getLineStart()),
+                                String.valueOf(prioSuspeciousPosition.getLineEnd()));
                     }
                 }
             } else {
                 // normal execution.
-                PatchEntry duplicatePatchEntry = progressPrinter.addPatch(prioSuspeciousPosition.localisationResultLine, patchId, patch, elapsedTimeMillis());
+                PatchEntry duplicatePatchEntry = progressPrinter.addPatch(prioSuspeciousPosition.lineNumbers,
+                prioSuspeciousPosition.getLocalisationResultLine(), patchId, patch, elapsedTimeMillis());
                 if (duplicatePatchEntry != null) {
 
                     Map<ResultCollector, PatchEntry> containingRC = new HashMap();
                     for (ResultCollector resultCollector : resultCollectors) {
                         PatchEntry compilableDupl = resultCollector.exists(duplicatePatchEntry);
                         if (compilableDupl != null) {
-                            resultCollector.printToLocations(prioSuspeciousPosition.localisationResultLine, compilableDupl);
+                            resultCollector.printDuplicateToLocations(prioSuspeciousPosition.getLocalisationResultLine(), compilableDupl, prioSuspeciousPosition.getLineStart(), prioSuspeciousPosition.getLineEnd(), prioSuspeciousPosition.classPath);
                             containingRC.put(resultCollector, compilableDupl);
                         }
                     }
@@ -287,14 +292,14 @@ public class IbirInjector {
                                             ResultCollector rc = containingRC.keySet().iterator().next();
                                             csvLine = rc.getCsvLine(containingRC.get(rc));
                                         }
-                                        resultCollector.addPatch(prioSuspeciousPosition.localisationResultLine, patchId, patch, csvLine, prioSuspeciousPosition.localisationResultLineConfidence);
+                                        resultCollector.addPatch(prioSuspeciousPosition.getLocalisationResultLine(), patchId, patch, csvLine, prioSuspeciousPosition.getLocalisationResultLineConfidence(), prioSuspeciousPosition.getLineStart(), prioSuspeciousPosition.getLineEnd());
                                     }
                                 } else {
                                     if (csvLine == null) {
                                         ResultCollector rc = containingRC.keySet().iterator().next();
                                         csvLine = rc.getCsvLine(containingRC.get(rc));
                                     }
-                                    resultCollector.addPatch(prioSuspeciousPosition.localisationResultLine, patchId, patch, csvLine, prioSuspeciousPosition.localisationResultLineConfidence);
+                                    resultCollector.addPatch(prioSuspeciousPosition.getLocalisationResultLine(), patchId, patch, csvLine, prioSuspeciousPosition.getLocalisationResultLineConfidence(), prioSuspeciousPosition.getLineStart(), prioSuspeciousPosition.getLineEnd());
                                 }
                             }
 
@@ -335,11 +340,12 @@ public class IbirInjector {
 
                 if (PRINT_PATCHES) {
                     String patchStr = TestUtils.readPatch(this.fullBuggyProjectPath);
-                    String patchFilePath = Configuration.outputPath + "_injectedBugs_patches/" + projectName_bugId + "/" + prioSuspeciousPosition.localisationResultLine + "/" + getPatternName(ft) + "/Patch_" + patchId + ".txt";
+                    String patchFilePath = Configuration.outputPath + "_injectedBugs_patches/" + projectName_bugId + "/" + prioSuspeciousPosition.getLocalisationResultLine() + "/" + getPatternName(ft) + "/Patch_" + patchId + ".txt";
 
                     if (patchStr == null || !patchStr.trim().startsWith("diff")) {
                         FileHelper.outputToFile(patchFilePath,
-                                "//**********************************************************\n//" + scn.suspiciousJavaFile + " ------ " + scn.buggyLine
+                                "//**********************************************************\n//" + scn.suspiciousJavaFile
+                                        + " ------ [" + scn.buggyLines[0]+" , "+scn.buggyLines[1]+"]"
                                         + "\n//**********************************************************\n"
                                         + "===Buggy Code===\n" + buggyCode + "\n\n===Patch Code===\n" + patchCode, false);
                     } else {
@@ -481,6 +487,60 @@ public class IbirInjector {
         return random;
     }
 
+    private void injectExhaustively() throws InjectionAbortingException, CsvValidationException, IOException {
+        // Read paths of the project.
+        if (!dp.validPaths)
+            throw new InjectionAbortingException("dp.validPaths is false.");
+
+        log.info("======= EXHAUSTIVE INJECTOR: Start to inject a bug in the target code ======");
+
+        final AllFileLocalisationProvider localisationProvider;
+
+        try {
+            localisationProvider = AllFileLocalisationProvider.newInstance(dp.srcAbsolutePath, projectName_bugId, projectPath, resultType, dp.classPath, defects4jPath);
+        } catch (CsvValidationException | IOException e) {
+            throw new InjectionAbortingException(e);
+        }
+
+        while (!isBudgetConsumed()) {
+            SuspCodeNode scn = localisationProvider.getNextSuspCodeNode((throwable, file, allJavaFiles) -> {
+                if (throwable instanceof AllFileLocalisationProvider.MissingBinary) {
+                    // recompile
+                    int compilationResult = TestUtils.compileProjectWithDefects4j(fullBuggyProjectPath, defects4jPath);
+                    if (compilationResult != 1 && throwable.file.exists()) {
+                        return false;
+                    }
+                } else {
+                    allJavaFiles.remove(file);
+                }
+                return true;
+            });
+
+            if (scn == null) {
+                assert !localisationProvider.hasNodes() : "localisationProvider still has nodes and returned null";
+                break;
+            }
+
+            log.debug("scn = \n" + scn.suspCodeStr);
+
+            // Parse context information of the suspicious code.
+            List<Integer> contextInfoList = readAllNodeTypes(scn.suspCodeAstNode);
+            List<Integer> distinctContextInfo = new ArrayList<>();
+            for (Integer contInfo : contextInfoList) {
+                if (!distinctContextInfo.contains(contInfo) && !Checker.isBlock(contInfo)) {
+                    distinctContextInfo.add(contInfo);
+                }
+            }
+            // Match fix templates for this suspicious code with its context information.
+            int[] positionInSourceCodeFile = {scn.startPos, scn.endPos};
+            injectWithMatchedTemplates(scn, distinctContextInfo, new IbirSuspiciousPosition(scn.buggyLines,scn.suspiciousJavaFile, positionInSourceCodeFile));
+        }
+        log.info("=======INJECTOR : Finish off injecting======");
+        log.info("deleting temporary files...");
+        FileHelper.deleteDirectory(Configuration.TEMP_FILES_PATH + Configuration.DATA_TYPE + "/" + this.projectName_bugId);
+        log.info("done.");
+    }
+
     public void injectProcessRandomly() throws InjectionAbortingException, IOException, CsvValidationException {
         // Read paths of the buggy project.
         if (!dp.validPaths)
@@ -545,7 +605,8 @@ public class IbirInjector {
                 }
             }
             // Match fix templates for this suspicious code with its context information.
-            injectWithMatchedTemplates(scn, distinctContextInfo, new RandomSuspeciousPosition(scn.suspiciousJavaFile, -1));
+            int[] scnPos = {scn.startPos, scn.endPos};
+            injectWithMatchedTemplates(scn, distinctContextInfo, new IbirSuspiciousPosition(scn.buggyLines,scn.suspiciousJavaFile, scnPos));
         }
         log.info("=======INJECTOR : Finish off injecting======");
         log.info("deleting temporary files...");
@@ -555,8 +616,12 @@ public class IbirInjector {
 
     public void injectProcess() throws InjectionAbortingException, IOException, CsvValidationException {
 
-        if (NODE_SELECTION.equals(LocalisationSelection.RANDOM)) {
+
+        if (LocalisationSelection.RANDOM.equals(NODE_SELECTION)) {
             injectProcessRandomly();
+            return;
+        } else if (LocalisationSelection.ALL.equals(NODE_SELECTION)){
+            injectExhaustively();
             return;
         }
 
@@ -646,7 +711,7 @@ public class IbirInjector {
         return IBIrLocalisationProvider.newInstance(suspiciousFilePath + "/" + (BUG_LOCALISATION_FILE == null ? this.projectName_bugId : BUG_LOCALISATION_FILE)).getSuspeciousCodePositions();
     }
 
-    public void injectWithMatchedTemplates(SuspCodeNode scn, List<Integer> distinctContextInfo, PrioSuspeciousPosition prioSuspeciousPosition) throws IOException, CsvValidationException { //  here comes the magic.
+    public void injectWithMatchedTemplates(SuspCodeNode scn, List<Integer> distinctContextInfo, IbirSuspiciousPosition prioSuspeciousPosition) throws IOException, CsvValidationException { //  here comes the magic.
         // generate patches with fix templates of TBar.
         FixTemplate ft = null;
         int suspCodeASTNodeType = scn.suspCodeAstNode.getType();
@@ -832,7 +897,7 @@ public class IbirInjector {
         }
     }
 
-    protected void generateAndValidatePatches(FixTemplate ft, SuspCodeNode scn, PrioSuspeciousPosition prioSuspeciousPosition) throws IOException, CsvValidationException {
+    protected void generateAndValidatePatches(FixTemplate ft, SuspCodeNode scn, IbirSuspiciousPosition prioSuspeciousPosition) throws IOException, CsvValidationException {
         ft.setSuspiciousCodeStr(scn.suspCodeStr);
         ft.setSuspiciousCodeTree(scn.suspCodeAstNode);
         if (scn.javaBackup == null) ft.setSourceCodePath(dp.srcAbsolutePath);
@@ -843,8 +908,8 @@ public class IbirInjector {
         if (patchCandidates.isEmpty()) return;
 
         List<Patch> patchesToTest = null;
-        if (LocalisationSelection.RANDOM.equals(NODE_SELECTION)) {
-            patchCandidates = progressPrinter.removeTriedOnes(patchCandidates);
+        if (LocalisationSelection.RANDOM.equals(NODE_SELECTION)) { // TODO: 10/03/2022 needed for exhaustive.
+            patchCandidates = progressPrinter.removeTriedOnes(patchCandidates); // TODO: 09/03/2022 how is this one working?
             if (patchCandidates.isEmpty()) return;
             if (!randomSkipPatches.stopSkipping(progressPrinter.triedPatchesCount())) {
                 if (getRandom().nextInt(10) < 7) {

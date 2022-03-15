@@ -18,10 +18,10 @@ public class PclResultCollector extends ResultCollector {
 
     private final Set<String> pclFiles;
 
-    public PclResultCollector(int numberOfMutants, Set<String> pclFiles, Set<String> testsBrokenByOriginalBug, String projectName_bugId) {
-        super(numberOfMutants, testsBrokenByOriginalBug, projectName_bugId);
+    public PclResultCollector(int numberOfMutants, Set<String> pclFiles, Set<String> testsBrokenByOriginalBug, String projectName_bugId, boolean exhaustiveInjection) {
+        super(numberOfMutants, testsBrokenByOriginalBug, projectName_bugId, exhaustiveInjection);
         this.pclFiles = pclFiles;
-        this.subdirectory =  matricesSubDirectoryPrefix + DEFAULT_IBIR_PCL_MATRICES_SUBDIRECTORY;
+        this.subdirectory = matricesSubDirectoryPrefix + DEFAULT_IBIR_PCL_MATRICES_SUBDIRECTORY;
         assert pclFiles != null && !pclFiles.isEmpty();
     }
 
@@ -33,17 +33,19 @@ public class PclResultCollector extends ResultCollector {
     }
 
     public boolean shouldSkip(String classPath) {
-        return isBudgetConsumed() || !pclFiles.contains(classPath);
+        return isBudgetConsumed() || (classPath.startsWith("/") ? !pclFiles.contains(classPath.substring(1)) : !pclFiles.contains(classPath));
     }
 
     public boolean isPcl(String classPath) {
         assert pclFiles != null && !pclFiles.isEmpty();
-        return pclFiles.contains(classPath);
+        return pclFiles.contains(classPath) || classPath.startsWith("/") && pclFiles.contains(classPath.substring(1));
     }
 
     private boolean isPcl(MutantPatch mutantPatch) {
         assert pclFiles != null && !pclFiles.isEmpty();
-        return pclFiles.contains(mutantPatch.getPrioSuspeciousPosition().classPath);
+        return pclFiles.contains(mutantPatch.getPrioSuspeciousPosition().classPath)
+                || mutantPatch.getPrioSuspeciousPosition().classPath.startsWith("/")
+                && pclFiles.contains(mutantPatch.getPrioSuspeciousPosition().classPath.substring(1));
     }
 
     @Override

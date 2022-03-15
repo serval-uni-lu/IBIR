@@ -2,8 +2,6 @@ package edu.lu.uni.serval.ibir.output;
 
 import edu.lu.uni.serval.tbar.info.Patch;
 
-import java.nio.charset.StandardCharsets;
-import java.util.Base64;
 import java.util.Map;
 import java.util.Objects;
 
@@ -14,38 +12,47 @@ public class PatchEntry {
     final String id;
     final Patch patch;
     final String duplicateId;
+    final String lineStart;
+    final String lineEnd;
     private String csv;
     private String patchStr;
 
     PatchEntry(Map<String, String> csvLine) {
-        this(csvLine.get(LOCALISATION_LINE), csvLine.get(PATCH_ID), csvLine.get(PATCH_OBJ), csvLine.get(DUPLICATED_PATCH_ID));
+        this(csvLine.get(LOCALISATION_LINE), csvLine.get(PATCH_ID), csvLine.get(PATCH_OBJ), csvLine.get(DUPLICATED_PATCH_ID),
+                csvLine.get(LINE_START), csvLine.get(LINE_END));
     }
 
-    private PatchEntry(String fl_loc, String id, String patch, String duplicateId) {
+    private PatchEntry(String fl_loc, String id, String patch, String duplicateId, String lineStart, String lineEnd) {
         this.fl_loc = fl_loc;
         this.id = id;
         this.patch = patchFromStr(patch);
         this.duplicateId = duplicateId;
+        this.lineStart = lineStart;
+        this.lineEnd = lineEnd;
     }
 
-    public PatchEntry(int fl_loc, int id, Patch patch){
-        this(String.valueOf(fl_loc), String.valueOf(id), patch);
+    public PatchEntry(int fl_loc, int id, Patch patch, int lineStart, int lineEnd){
+        this(String.valueOf(fl_loc), String.valueOf(id), patch, String.valueOf(lineStart), String.valueOf(lineEnd));
     }
 
 
-    PatchEntry(String fl_loc, String id, Patch patch) {
+    PatchEntry(String fl_loc, String id, Patch patch, String lineStart, String lineEnd) {
         this.fl_loc = fl_loc;
         this.id = id;
         this.patch = patch;
+        this.lineStart = lineStart;
+        this.lineEnd = lineEnd;
         this.duplicateId = null;
         this.csv = null;
         this.patchStr = null;
     }
 
-    public PatchEntry(String fl_loc, String id, Patch patch, PatchEntry dupl) {
+    public PatchEntry(String fl_loc, String id, Patch patch, PatchEntry dupl, String lineStart, String lineEnd) {
         this.fl_loc = fl_loc;
         this.id = id;
         this.patch = patch;
+        this.lineStart = lineStart;
+        this.lineEnd = lineEnd;
         this.csv = null;
         if (dupl != null) {
             this.duplicateId = dupl.id;
@@ -86,6 +93,7 @@ public class PatchEntry {
             else
                 stringBuilder.append(CSV_SEPARATOR)
                         .append(duplicateId);
+            stringBuilder.append(CSV_SEPARATOR).append(lineStart).append(CSV_SEPARATOR).append(lineEnd).append(CSV_SEPARATOR).append(patch.buggyFileName);
             csv = stringBuilder.toString();
         }
         return csv;

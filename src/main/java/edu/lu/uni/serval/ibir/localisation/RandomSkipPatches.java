@@ -27,7 +27,7 @@ public class RandomSkipPatches {
         return triedPatches > stopSkippingLimit;
     }
 
-    public void addSkippedPatches(List<Patch> patchCandidates, SuspCodeNode scn, FixTemplate ft, PrioSuspeciousPosition prioSuspeciousPosition){
+    public void addSkippedPatches(List<Patch> patchCandidates, SuspCodeNode scn, FixTemplate ft, IbirSuspiciousPosition prioSuspeciousPosition){
         for (Patch patchCandidate : patchCandidates) {
             skippedPatches.add(new SkippedPatch(patchCandidate,scn,ft,prioSuspeciousPosition));
         }
@@ -46,9 +46,9 @@ public class RandomSkipPatches {
         public final Patch patch;
         public final SuspCodeNode scn;
         public final FixTemplate ft;
-        public final PrioSuspeciousPosition prioSuspeciousPosition;
+        public final IbirSuspiciousPosition prioSuspeciousPosition;
 
-        public SkippedPatch(Patch patch, SuspCodeNode scn, FixTemplate ft, PrioSuspeciousPosition prioSuspeciousPosition) {
+        public SkippedPatch(Patch patch, SuspCodeNode scn, FixTemplate ft, IbirSuspiciousPosition prioSuspeciousPosition) {
             this.patch = patch;
             this.scn = scn;
             this.ft = ft;
