@@ -2,6 +2,23 @@
 
 ![TheiBiRfault injection workflow](ibir-workflow.png)
 
+## Journal (TOSEM-2022): "IBiR: Bug Report Driven Fault Injection" 
+available at: https://doi.org/10.1145/3542946
+
+    @article{khanfir2020ibir,
+    author = {Khanfir, Ahmed and Koyuncu, Anil and Papadakis, Mike and Cordy, Maxime and Bissyand\'{e}, Tegawende F. and Klein, Jacques and Le Traon, Yves},
+    title = {IBiR: Bug Report Driven Fault Injection},
+    year = {2022},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    issn = {1049-331X},
+    url = {https://doi.org/10.1145/3542946},
+    doi = {10.1145/3542946},
+    journal = {ACM Trans. Softw. Eng. Methodol.},
+    month = {may},
+    keywords = {Mutation, Information Retrieval, Bug Reports, Fault Injection}
+    }
+
 ## Description: 
 
 Source-code base of: IBIR and its experimental evaluation.
